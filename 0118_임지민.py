@@ -102,3 +102,4 @@ b = input()
 c = int(input())
 
 print(f'{b*c}{a}')
+

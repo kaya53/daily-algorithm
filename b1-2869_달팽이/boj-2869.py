@@ -2,6 +2,8 @@ import sys
 
 sys.stdin = open('input.txt')
 
+
+# 통과 코드
 for _ in range(3):
     A, B, V = map(int, input().split())
     # print(V-A)
