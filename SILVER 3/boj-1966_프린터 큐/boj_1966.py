@@ -17,7 +17,7 @@ for _ in range(T):
             if first[1] < copies[i][1]:  # 꺼낸 문서의 중요도와 copies 내의 문서의 중요도 비교
                 copies.append(first)  # 하나라도 큰게 있으면 무조건 맨 뒤로 보내고
                 break  # for문 끝내기 -> for문이 끝나면 continue를 안써도 while문의 다음 반복으로 감
-        else:  # 꺼낸 원소가 제일 클 때
+        else:  # for가 break로 끝나지 않을 때 실행할 것; 꺼낸 원소가 제일 클 때
             res.append(first)  # 결과값을 담는 배열에 차례대로 쌓아 넣는다
         # continue  # 어차피 이 이후에 while문 내에 실행시킬 코드가 없으므로 안써도 됨
 
