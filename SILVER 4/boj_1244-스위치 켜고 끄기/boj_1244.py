@@ -1,4 +1,3 @@
-import random
 import sys
 
 sys.stdin = open('input.txt')
@@ -36,9 +35,9 @@ def female(num):
 for sid, stu_num in students:
     if sid == 1:
         male(stu_num)  # 남학생 로직
-    if sid == 2:
+    elif sid == 2:
         female(stu_num)  # 여학생 로직
 
 # 20개 단위로 끊어서 출력
 for i in range(0, N, 20):
-    print(*switches[i : i+20])
+    print(*switches[i:i+20])
