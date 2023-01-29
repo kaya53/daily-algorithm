@@ -1,76 +1,76 @@
-### 함수 3 - 재귀 함수
+## 함수 3 - 재귀 함수
 
-## 형성 평가 1
-# n = int(input())
-# arr = []
-#
-# while n >= 1:
-#     arr.append(n)
-#     n //= 2
-# print(*arr[::-1])
+# 형성 평가 1
+n = int(input())
+arr = []
 
-## 형성 평가 2
-# n = int(input())
-# if n % 2:
-#     for i in range(1, n+1, 2):
-#         print(i, end=' ')
-# else:
-#     for j in range(2, n+1,2):
-#         print(j, end=' ')
+while n >= 1:
+    arr.append(n)
+    n //= 2
+print(*arr[::-1])
 
-## 연습 문제 3
-# n = int(input())
-#
-# def fact(N):
-#     if N == 1:
-#         return 1
-#     if N == 2:
-#         return 2
-#     return N * fact(N-1)
-#
-#
-# print(fact(n))
+# 형성 평가 2
+n = int(input())
+if n % 2:
+    for i in range(1, n+1, 2):
+        print(i, end=' ')
+else:
+    for j in range(2, n+1,2):
+        print(j, end=' ')
 
-## 자가 진단 3
-# n = int(input())
-#
-# def sum_recur(N):
-#     if N == 1: return 1
-#     return N + sum_recur(N-1)
-#
-# print(sum_recur(n))
+# 연습 문제 3
+n = int(input())
 
-## 연습 문제 4
-# n = int(input())
-#
-# def dice_recur(level, arr):
-#     if level == 3:
-#         print(*arr)
-#         return
-#     for i in range(1, 7):
-#         dice_recur(level+1, arr+[i])
-#
-# dice_recur(0, [])
+def fact(N):
+    if N == 1:
+        return 1
+    if N == 2:
+        return 2
+    return N * fact(N-1)
 
 
-## 형성 평가 3
-# n, m = map(int, input().split())
-#
-#
-# def dice_recur(level, ssum, arr):
-#     if level == n:
-#         if ssum == m:
-#             print(*arr)
-#         return
-#     if ssum + ((n - level) * 6) < m:  # 가지 치기 ; before 183ms, after 143ms
-#         return
-#     for i in range(1, 7):
-#         dice_recur(level+1, ssum+i, arr+[i])
-#
-#
-# dice_recur(0, 0, [])
+print(fact(n))
 
-## 형성 평가 4
+# 자가 진단 3
+n = int(input())
+
+def sum_recur(N):
+    if N == 1: return 1
+    return N + sum_recur(N-1)
+
+print(sum_recur(n))
+
+# 연습 문제 4
+n = int(input())
+
+def dice_recur(level, arr):
+    if level == 3:
+        print(*arr)
+        return
+    for i in range(1, 7):
+        dice_recur(level+1, arr+[i])
+
+dice_recur(0, [])
+
+
+# 형성 평가 3
+n, m = map(int, input().split())
+
+
+def dice_recur(level, ssum, arr):
+    if level == n:
+        if ssum == m:
+            print(*arr)
+        return
+    if ssum + ((n - level) * 6) < m:  # 가지 치기 ; before 183ms, after 143ms
+        return
+    for i in range(1, 7):
+        dice_recur(level+1, ssum+i, arr+[i])
+
+
+dice_recur(0, 0, [])
+
+# 형성 평가 4
 n = int(input())
 dic = {}
 
@@ -88,3 +88,75 @@ def recur(n):
     return dic[n]
 
 print(recur(n))
+
+
+# 연습문제 5-2
+n = int(input())
+fibo = {}
+def fibo_recur(n):
+    if n in fibo:
+        return fibo[n]
+    if n == 1 or n == 2:
+        fibo[n] = 1
+        return 1
+
+    fibo[n] = fibo_recur(n-1) + fibo_recur(n-2)
+    return fibo[n]
+
+print(fibo_recur(n))
+
+
+# 자가진단 5
+n = int(input())
+ssum = {}
+
+def sum_recur(n):
+    if n in ssum:  # memoization
+        return ssum[n]
+    if n == 1:
+        ssum[n] = 1
+        return 1
+    ssum[n] = sum_recur(n // 2) + sum_recur(n - 1)
+    return ssum[n]
+
+print(sum_recur(n))
+
+
+# 연습문제 6
+n = int(input())
+def divide_recur(n):
+    if n // 10 == 0 :
+        return n % 10
+    return divide_recur(n // 10) + (n % 10)
+
+print(divide_recur(n))
+
+
+# 형성 평가 5
+n = int(input())
+
+def devide_recur(n):
+    if n == 1:
+        return 0
+    if n % 2:
+        return devide_recur(n // 3) + 1
+    else:
+        return devide_recur(n // 2) + 1
+
+print(devide_recur(n))
+
+
+# 형성 평가 6
+n, m, k = map(int, input().split())
+
+def mul_recur(N):
+    if N == 0:
+        return 1
+    if N // 10 == 0:
+        return N
+    if N % 10 :
+        return mul_recur(N // 10) * (N % 10)
+    else:
+        return mul_recur(N // 10)
+
+print(mul_recur(n*m*k))
