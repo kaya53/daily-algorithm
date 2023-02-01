@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/01_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 3/boj-8911/boj_8911.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 3/boj-8911/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/00_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00_algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_bubble.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_memory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_merge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_quick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_select.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1110_더하기 사이클/boj-1110.py" beforeDir="false" afterPath="$PROJECT_DIR$/BRONZE 1/b1-1110/boj-1110.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1110_더하기 사이클/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BRONZE 1/b1-1110/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1193_분수찾기/boj_1193.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1193_분수찾기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1546_평균/boj_1546.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1546_평균/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2163_초콜릿자르기/boj_2163.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2163_초콜릿자르기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2609_최대공약수/boj_2609.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2609_최대공약수/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2775_부녀회장이 될테야/boj_2775.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2775_부녀회장이 될테야/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2869_달팽이/boj-2869.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2869_달팽이/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_1152_단어의개수/1152.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_1152_단어의개수/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_2947-나무조각/boj_2947.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_2947-나무조각/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918-봄버맨/boj_16918.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918-봄버맨/boj_16918_re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918-봄버맨/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713-후보 추천하기/boj_1713.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713/boj_1713.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713-후보 추천하기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 3/boj-1966_프린터 큐/boj_1966.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 3/boj-1966_프린터 큐/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 3/boj_1063-킹/boj_1063.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 3/boj_1063-킹/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_1244-스위치 켜고 끄기/boj_1244.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_1244-스위치 켜고 끄기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_2578-빙고/boj_2578.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_2578-빙고/boj_2578_002.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_2578-빙고/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-10709_기상캐스터/boj_10709.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-10709_기상캐스터/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-11650_좌표 정렬하기/boj_11650.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-11650_좌표 정렬하기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1331_나이트 투어/boj_1331.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1331_나이트 투어/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1417_국회의원 선거/boj_1417.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1417_국회의원 선거/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-2751_수 정렬하기2/boj_2751-merge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-2751_수 정렬하기2/boj_2751-quick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-2751_수 정렬하기2/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-4673_셀프넘버/boj_4673.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037_오류교정/J_1037_오류교정_임지민.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037_오류교정/input.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2L7CTScDbfvjng2o0L8A13MmZgV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Python.boj_2531">
+    <configuration name="1970-solve" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="boj_1331" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 5/boj-1331" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 5/boj-1331/boj_1331.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="boj_2531" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 1/boj_2531_sushi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="boj_8911" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 3/boj-8911" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 3/boj-8911/boj_8911.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="swea_11518" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.boj_2531" />
+        <item itemvalue="Python.boj_8911" />
+        <item itemvalue="Python.swea_11518" />
+        <item itemvalue="Python.boj_1331" />
+        <item itemvalue="Python.1970-solve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="" />
+      <created>1675212741669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675212741669</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 5/boj-1331/boj_1331.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 5/boj-1331/boj_1331.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 5/boj-1331/boj_1331.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 3/boj-8911/boj_8911.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 3/boj-8911/boj_8911.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
