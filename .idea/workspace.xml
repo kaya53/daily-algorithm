@@ -2,71 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/01_intro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 3/boj-8911/boj_8911.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 3/boj-8911/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/00_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00_algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_bubble.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_memory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_quick.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/boj_10989_select.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-10989_수 정렬하기3(sorting)/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1110_더하기 사이클/boj-1110.py" beforeDir="false" afterPath="$PROJECT_DIR$/BRONZE 1/b1-1110/boj-1110.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1110_더하기 사이클/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BRONZE 1/b1-1110/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1193_분수찾기/boj_1193.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1193_분수찾기/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1546_평균/boj_1546.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-1546_평균/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2163_초콜릿자르기/boj_2163.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2163_초콜릿자르기/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2609_최대공약수/boj_2609.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2609_최대공약수/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2775_부녀회장이 될테야/boj_2775.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2775_부녀회장이 될테야/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2869_달팽이/boj-2869.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/b1-2869_달팽이/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_1152_단어의개수/1152.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_1152_단어의개수/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_2947-나무조각/boj_2947.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BRONZE 1/boj_2947-나무조각/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918-봄버맨/boj_16918.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918-봄버맨/boj_16918_re.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918-봄버맨/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713-후보 추천하기/boj_1713.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713/boj_1713.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713-후보 추천하기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 3/boj-1966_프린터 큐/boj_1966.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 3/boj-1966_프린터 큐/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 3/boj_1063-킹/boj_1063.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 3/boj_1063-킹/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_1244-스위치 켜고 끄기/boj_1244.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_1244-스위치 켜고 끄기/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_2578-빙고/boj_2578.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_2578-빙고/boj_2578_002.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 4/boj_2578-빙고/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-10709_기상캐스터/boj_10709.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-10709_기상캐스터/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-11650_좌표 정렬하기/boj_11650.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-11650_좌표 정렬하기/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1331_나이트 투어/boj_1331.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1331_나이트 투어/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1417_국회의원 선거/boj_1417.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-1417_국회의원 선거/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-2751_수 정렬하기2/boj_2751-merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-2751_수 정렬하기2/boj_2751-quick.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-2751_수 정렬하기2/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 5/boj-4673_셀프넘버/boj_4673.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037_오류교정/J_1037_오류교정_임지민.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037_오류교정/input.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/06_permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/08_simple_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/j_2788.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea-5789_changebox/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea-5789_changebox/swea_5789.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOLD 4/boj_15961_sushi2/boj_15961.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOLD 4/boj_15961_sushi2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 2/boj_5212_global-warming/boj_5212.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 2/boj_5212_global-warming/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/01_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/01_intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea-11518/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea-11518/swea_11518.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea_1970/1970-solve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea_1970/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918/boj_16918.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918/boj_16918_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918_re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713/boj_1713.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713_candidate/boj_1713.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713_candidate/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0118_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0118_임지민.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0119_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0119_임지민.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0125_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0125_임지민.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0126_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0126_임지민.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0127_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0127_임지민.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1438-색종이-초/J_1438-색종이(초).py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1438-색종이-초/J_1438-색종이(초).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1438-색종이-초/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1438-색종이-초/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1671-색종이-중/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1671-색종이-중/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1671-색종이-중/j_1671.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1671-색종이-중/j_1671.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037/J_1037.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0131_j1037/J_1037.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0131_j1037/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/0201-j1031/J_1031_빙고_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0201-j1031/J_1031_빙고_임지민.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extracurricular hw/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/recursion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +62,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GOLD 4/boj_15961_sushi2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.boj_2531">
-    <configuration name="1970-solve" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SCSA\00_algorithm\GOLD 4\boj_15961_sushi2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SCSA\00_algorithm" />
+      <recent name="D:\SCSA\00_algorithm\00_REGULAR_CLASS" />
+      <recent name="D:\SCSA\00_algorithm\00_REGULAR_CLASS\0202" />
+      <recent name="D:\SCSA\00_algorithm\00_REGULAR_CLASS\0201" />
+      <recent name="D:\SCSA\00_algorithm\GOLD 4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.j1718-omok">
+    <configuration name="06_permutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/06_permutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="boj_1331" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="08_simple_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 5/boj-1331" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 5/boj-1331/boj_1331.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/08_simple_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="boj_2531" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="j1718-omok" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 1/boj_2531_sushi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718/j1718-omok.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="boj_8911" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="j_2788" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,11 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 3/boj-8911" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 3/boj-8911/boj_8911.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/j_2788.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="swea_11518" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="swea_11416" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.boj_2531" />
-        <item itemvalue="Python.boj_8911" />
-        <item itemvalue="Python.swea_11518" />
-        <item itemvalue="Python.boj_1331" />
-        <item itemvalue="Python.1970-solve" />
+        <item itemvalue="Python.j1718-omok" />
+        <item itemvalue="Python.08_simple_sort" />
+        <item itemvalue="Python.swea_11416" />
+        <item itemvalue="Python.06_permutation" />
+        <item itemvalue="Python.j_2788" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +216,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,7 +232,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py</url>
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea_1970/1970-solve.py</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -251,7 +242,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py</url>
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea-11518/swea_11518.py</url>
           <line>54</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -267,8 +258,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/j_2788.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0202/06_permutation.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0202/08_simple_sort.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
