@@ -2,46 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/06_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/08_simple_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/j_2788.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea-5789_changebox/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea-5789_changebox/swea_5789.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOLD 4/boj_15961_sushi2/boj_15961.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GOLD 4/boj_15961_sushi2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 2/boj_5212_global-warming/boj_5212.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SILVER 2/boj_5212_global-warming/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-11514_electric-bus/S-11514.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-16180_number-card/swea_16180.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S_1945_simple-division/S-1945.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918_tri.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/01_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/01_intro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea-11518/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea-11518/swea_11518.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea-11518/swea_11518.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/1970-solve.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea_1970/1970-solve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR_CLASS/swea_1970/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR_CLASS/0201/swea_1970/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918/boj_16918.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918/boj_16918_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918_re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713/boj_1713.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713_candidate/boj_1713.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_1713/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_1713_candidate/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718/J_1718-omok.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718/J_1718-omok.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_13335_truck/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" beforeDir="false" afterPath="$PROJECT_DIR$/SILVER 1/boj_2531_sushi/boj_2531.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0118_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0118_임지민.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0119_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0119_임지민.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0125_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0125_임지민.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0126_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0126_임지민.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0127_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0127_임지민.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1438-색종이-초/J_1438-색종이(초).py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1438-색종이-초/J_1438-색종이(초).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1438-색종이-초/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1438-색종이-초/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1671-색종이-중/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1671-색종이-중/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0130/j_1671-색종이-중/j_1671.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0130/j_1671-색종이-중/j_1671.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037/J_1037.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0131_j1037/J_1037.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0131_j1037/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0131_j1037/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/0201-j1031/J_1031_빙고_임지민.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/0201-j1031/J_1031_빙고_임지민.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracurricular hw/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/recursion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +32,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GOLD 4/boj_15961_sushi2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SCSA\00_algorithm\SILVER 1\boj_16918_bomberman" />
       <recent name="D:\SCSA\00_algorithm\GOLD 4\boj_15961_sushi2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,8 +50,8 @@
       <recent name="D:\SCSA\00_algorithm\GOLD 4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.j1718-omok">
-    <configuration name="06_permutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.boj_16918_tri">
+    <configuration name="S-11514" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-11514_electric-bus" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/06_permutation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-11514_electric-bus/S-11514.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08_simple_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="S-1945" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S_1945_simple-division" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/08_simple_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S_1945_simple-division/S-1945.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="j1718-omok" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="boj_13335" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 1/boj_13335_truck" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_EXTRACURRICULAR/0202_J1718/j1718-omok.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="j_2788" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="boj_16918_tri" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/j_2788_reap/j_2788.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918_tri.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="swea_11416" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="swea_16180" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-16180_number-card" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-16180_number-card/swea_16180.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.j1718-omok" />
-        <item itemvalue="Python.08_simple_sort" />
-        <item itemvalue="Python.swea_11416" />
-        <item itemvalue="Python.06_permutation" />
-        <item itemvalue="Python.j_2788" />
+        <item itemvalue="Python.boj_16918_tri" />
+        <item itemvalue="Python.boj_13335" />
+        <item itemvalue="Python.S-11514" />
+        <item itemvalue="Python.swea_16180" />
+        <item itemvalue="Python.S-1945" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +256,31 @@
           <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0202/swea_11416_gravity/swea_11416.py</url>
           <line>5</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-11514_electric-bus/S-11514.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR_CLASS/0203/S-11514_electric-bus/S-11514.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 1/boj_13335_truck/boj_13335.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SILVER 1/boj_16918_bomberman/boj_16918_tri.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

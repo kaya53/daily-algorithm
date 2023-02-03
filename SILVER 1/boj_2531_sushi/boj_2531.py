@@ -4,8 +4,8 @@ sys.stdin = open('input.txt')
 
 
 def count_sushi(arr):
-    cnt = len(set(arr))
-    if c not in arr: cnt += 1
+    cnt = len(set(arr))  ## set 연산에서 arr을 한번 순회
+    if c not in arr: cnt += 1  ## 여기서도 훑음
     return cnt
 
 
@@ -29,7 +29,7 @@ for _ in range(4):
         ri = i % n  # n이 얼마가 나오건 나머지 연산자 처리를 해줘서 한바퀴 돌 수 있게 해준다.
         sect.pop(0)  # 첫번째 원소를 빼고
         sect.append(sushi[ri])  # 그 다음 원소 집어넣기
-        cnt_ls[i-k+1] = count_sushi(sect)
+        cnt_ls[i-k+1] = count_sushi(sect)  ## 여기서 바로 카운트를 해주면 시간이 줄 수 있다 ; max값 구할 때처럼 바로바로 갱신해 주면 된다
     print(max(cnt_ls))
 
 
