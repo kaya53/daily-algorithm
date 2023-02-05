@@ -1,0 +1,32 @@
+A1 A2 5
+B
+L
+LB
+RB
+LT
+A1 H8 1
+T
+A1 A2 1
+T
+A1 A2 2
+T
+R
+A8 B7 18
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
+RB
