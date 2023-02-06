@@ -1,0 +1,46 @@
+# 자료구조 및 알고리즘
+
+1. 데이터(발생 형태) 중 어떤 값(기준이 명확할 것)을 찾는 것 : (최댓값, 최솟값)
+2. 데이터 중 어떤 값의 위치, 개수 찾는 것
+3. 데이터의 특성을 구하는 것 : (평균, 분산/표준편차, 약수, 배수, 소수, 최대공약수, 최소공배수)
+
+# 다양한 알고리즘, 기법이 사용됨
+4. 움직임을 구현하는 것 (1개, 2개) 최단경로, 최단시간, 최장시간, 경로의 가짓수
+
+# 자료구조를 사용해야 함
+1. 자료구조 : 데이터를 저장, 접근해서 사용하는 컨테이너
+2. 자료구조의 기능 : 자료구조 생성, 자료구조에 데이터를 삽입, 삭제, 접근(검색), 갱신
+3. 자료구조의 기능을 구현한 방법에 따라 다양한 종류가 있다
+  3-1. 선형구조 - 배열, 스택, 큐, 데큐, ...
+  3-2. 비선형구조 - 트리, 그래프
+4. 재귀 호출 사용 : 반복의 횟수가 변동적일 때 사용
+  (제약이 심함, 재귀 호출 횟수, 스택 메모리 사용량, global, return 활용)
+
+# python
+- 내장함수, comprehension 등의 사용은 적절히
+- 기본 자료구조 + 운영기법(직접 접근, 반복을 줄일 수 있는 기법)
+
+# 색종이
+import sys
+
+input = sys.stdin.readline
+
+
+def solve(area_map):
+    return sum(map(sum, area_map))
+
+
+def input_output():
+    n = int(input().rstrip())
+    infos = (map(int, input().rstrip().split()) for _ in range(n))
+    area_map = [[0] * 100 for _ in range(100)]
+
+    for r, c in infos:
+        for i in range(r, r + 10):
+            for j in range(c, c + 10):
+                area_map[i][j] = 1
+
+    print(solve(area_map))
+
+
+input_output()

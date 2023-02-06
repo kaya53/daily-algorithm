@@ -10,7 +10,7 @@ for tc in range(1, T+1):
     N = int(input())
     cnt = [0] * 5
     for i, num in enumerate(arr):
-        while not (N % num):
+        while not (N % num):  # 나누어떨어질 때까지 나누기
             N //= num
             cnt[i] += 1
 
