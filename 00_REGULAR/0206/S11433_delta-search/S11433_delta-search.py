@@ -12,5 +12,5 @@ for tc in range(1, T+1):
             for k in range(4):
                 ni, nj = i+di[k], j+dj[k]
                 if (0 <= ni < 5) and (0 <= nj < 5):
-                    cnt +=  abs(arr[ni][nj] - arr[i][j])
+                    cnt += abs(arr[ni][nj] - arr[i][j])
     print(f'#{tc} {cnt}')
