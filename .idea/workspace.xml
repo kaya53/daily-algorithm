@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J1141_bad-hair-day/J1141_bad-hair-day.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J1141_bad-hair-day/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J1221_postfix-notation/J1221_postfix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J1221_postfix-notation/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/BRONZE 1/boj_1952_snail/boj_1952_snail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/BRONZE 1/boj_1952_snail/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/00_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00_algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2/J1175_rolling-dice-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/jungol-practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J3572_postfix-2/J3572-postfix2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J3572_postfix-2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1/J1169_rolling-dice-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1309_factorial/J1309_factorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/sample_input(6).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/S11572_check-kuahao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1223-calculator2/S1223-calculator2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1223-calculator2/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1225_pw-genertor/S1225_pw-genertor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1225_pw-genertor/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1225_pw-genertor/output (1).txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/01_linear-structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/01_linear-structure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/J1141_bad-hair-day/J1141_bad-hair-day.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/J1141_bad-hair-day/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/J2858-steel-stick/J2858-steel-stick.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J2858-steel-stick/J2858-steel-stick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/J2858-steel-stick/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J2858-steel-stick/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -67,22 +69,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SCSA\00_ALGORITHM\00_REGULAR\0208\S11628_node-distance" />
+      <recent name="D:\SCSA\00_ALGORITHM\00_REGULAR\0208\STACK\S1225_pw-genertor" />
+      <recent name="D:\SCSA\00_ALGORITHM\00_REGULAR\0208\STACK\S1223-calculator2" />
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S1210-ladder1" />
       <recent name="D:\SCSA\00_algorithm\99_MEMO" />
-      <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S11433_delta-search" />
-      <recent name="D:\SCSA\00_algorithm\SILVER 1\boj_16918_bomberman" />
-      <recent name="D:\SCSA\00_algorithm\GOLD 4\boj_15961_sushi2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SCSA\00_ALGORITHM\00_REGULAR" />
       <recent name="D:\SCSA\00_ALGORITHM\00_REGULAR\0207\RECURSIVE" />
       <recent name="D:\SCSA\00_ALGORITHM\00_REGULAR\0207\STACK" />
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0207" />
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S2001_kill-fly" />
-      <recent name="D:\SCSA\00_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.J1221_postfix">
-    <configuration name="02_recursive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.J1169_rolling-dice-1">
+    <configuration name="J1169_rolling-dice-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0207" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\SCSA\00_ALGORITHM\00_REGULAR\0207\RECURSIVE\02_recursive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1/J1169_rolling-dice-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="J1141_bad-hair-day" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="J1175_rolling-dice-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0207/J1141_bad-hair-day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0207/J1141_bad-hair-day/J1141_bad-hair-day.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2/J1175_rolling-dice-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="J1221_postfix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="J1309_factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0207/STACK/J1221_postfix-notation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1309_factorial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0207/STACK/J1221_postfix-notation/J1221_postfix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1309_factorial/J1309_factorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,19 +147,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="J2858-steel-stick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="S11572_check-kuahao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python\pypy3.7-v7.3.4-win64\pypy3.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0207/J2858-steel-stick" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0207/J2858-steel-stick/J2858-steel-stick.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/S11572_check-kuahao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="boj_1952_snail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="S11628_node-distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/BRONZE 1/boj_1952_snail" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/BRONZE 1/boj_1952_snail/boj_1952_snail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,19 +190,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.J1141_bad-hair-day" />
-      <item itemvalue="Python.J2858-steel-stick" />
-      <item itemvalue="Python.boj_1952_snail" />
-      <item itemvalue="Python.02_recursive" />
-      <item itemvalue="Python.J1221_postfix" />
+      <item itemvalue="Python.S11572_check-kuahao" />
+      <item itemvalue="Python.J1175_rolling-dice-2" />
+      <item itemvalue="Python.S11628_node-distance" />
+      <item itemvalue="Python.J1309_factorial" />
+      <item itemvalue="Python.J1169_rolling-dice-1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.J1221_postfix" />
-        <item itemvalue="Python.02_recursive" />
-        <item itemvalue="Python.boj_1952_snail" />
-        <item itemvalue="Python.J1141_bad-hair-day" />
-        <item itemvalue="Python.J2858-steel-stick" />
+        <item itemvalue="Python.J1169_rolling-dice-1" />
+        <item itemvalue="Python.J1309_factorial" />
+        <item itemvalue="Python.S11628_node-distance" />
+        <item itemvalue="Python.J1175_rolling-dice-2" />
+        <item itemvalue="Python.S11572_check-kuahao" />
       </list>
     </recent_temporary>
   </component>
@@ -357,28 +359,68 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py</url>
-          <line>51</line>
+          <line>54</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py</url>
-          <line>57</line>
+          <line>60</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py</url>
-          <line>73</line>
+          <line>76</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py</url>
-          <line>86</line>
+          <line>89</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0207/STACK/J1221_postfix-notation/J1221_postfix.py</url>
           <line>6</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0207/STACK/J3572_postfix-2/J3572-postfix2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0208/STACK/S1223-calculator2/S1223-calculator2.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/S11572_check-kuahao.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2/J1175_rolling-dice-2.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2/J1175_rolling-dice-2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/S11572_check-kuahao.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1/J1169_rolling-dice-1.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

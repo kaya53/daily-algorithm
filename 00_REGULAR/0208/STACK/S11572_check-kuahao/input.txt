@@ -1,0 +1,5 @@
+4
+print('#{} {}'.format(tc, find())
+{( })
+print('{} {}'.format(1, 2))
+N, M = map(int, input().split())
