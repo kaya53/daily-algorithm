@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2/J1175_rolling-dice-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/jungol-practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J3572_postfix-2/J3572-postfix2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0207/STACK/J3572_postfix-2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1/J1169_rolling-dice-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1309_factorial/J1309_factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/sample_input(6).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/S11572_check-kuahao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1223-calculator2/S1223-calculator2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1223-calculator2/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1225_pw-genertor/S1225_pw-genertor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1225_pw-genertor/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0208/STACK/S1225_pw-genertor/output (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/1158_josephus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J2613,B7576_tomato/J2613,B7576_tomato.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J2613,B7576_tomato/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/powerset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/02_recursive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +78,8 @@
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S2001_kill-fly" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.J1169_rolling-dice-1">
-    <configuration name="J1169_rolling-dice-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.B15686_chicken-delivery">
+    <configuration name="1158_josephus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1/J1169_rolling-dice-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/1158_josephus.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="J1175_rolling-dice-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B15686_chicken-delivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0207/RECURSIVE/J1175_rolling-dice-2/J1175_rolling-dice-2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="J1309_factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B2961,J1127_delicious-food" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1309_factorial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1309_factorial/J1309_factorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="S11572_check-kuahao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="J1661_maze-robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/STACK/S11572_check-kuahao/S11572_check-kuahao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="S11628_node-distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_EXTRACURRICULAR" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_EXTRACURRICULAR/powerset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,19 +185,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.S11572_check-kuahao" />
-      <item itemvalue="Python.J1175_rolling-dice-2" />
-      <item itemvalue="Python.S11628_node-distance" />
-      <item itemvalue="Python.J1309_factorial" />
-      <item itemvalue="Python.J1169_rolling-dice-1" />
+      <item itemvalue="Python.B2961,J1127_delicious-food" />
+      <item itemvalue="Python.J1661_maze-robot" />
+      <item itemvalue="Python.1158_josephus" />
+      <item itemvalue="Python.powerset" />
+      <item itemvalue="Python.B15686_chicken-delivery" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.J1169_rolling-dice-1" />
-        <item itemvalue="Python.J1309_factorial" />
-        <item itemvalue="Python.S11628_node-distance" />
-        <item itemvalue="Python.J1175_rolling-dice-2" />
-        <item itemvalue="Python.S11572_check-kuahao" />
+        <item itemvalue="Python.B15686_chicken-delivery" />
+        <item itemvalue="Python.B2961,J1127_delicious-food" />
+        <item itemvalue="Python.powerset" />
+        <item itemvalue="Python.1158_josephus" />
+        <item itemvalue="Python.J1661_maze-robot" />
       </list>
     </recent_temporary>
   </component>
@@ -421,6 +416,61 @@
           <url>file://$PROJECT_DIR$/00_REGULAR/0208/RECURSIVE/J1169_rolling-dice-1/J1169_rolling-dice-1.py</url>
           <line>30</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/J2613,B7576_tomato/J2613,B7576_tomato.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/J2613,B7576_tomato/J2613,B7576_tomato.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/1158_josephus.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
