@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/1158_josephus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J2613,B7576_tomato/J2613,B7576_tomato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/J2613,B7576_tomato/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_EXTRACURRICULAR/powerset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_REGULAR/0210/01_nonlinear-structure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/B1260_dfs-bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/B11899_insert-kuahao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -78,8 +77,8 @@
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S2001_kill-fly" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B15686_chicken-delivery">
-    <configuration name="1158_josephus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.B11899_insert-kuahao">
+    <configuration name="B11899_insert-kuahao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +86,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0209/1158_josephus/1158_josephus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/B11899_insert-kuahao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="B1260_dfs-bfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/B1260_dfs-bfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B2961,J1127_delicious-food" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B2688_choose-number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="J1661_maze-robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="S11628_node-distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,32 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="00_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_EXTRACURRICULAR" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_EXTRACURRICULAR/powerset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,19 +184,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.B2961,J1127_delicious-food" />
-      <item itemvalue="Python.J1661_maze-robot" />
-      <item itemvalue="Python.1158_josephus" />
-      <item itemvalue="Python.powerset" />
       <item itemvalue="Python.B15686_chicken-delivery" />
+      <item itemvalue="Python.B2688_choose-number" />
+      <item itemvalue="Python.S11628_node-distance" />
+      <item itemvalue="Python.B1260_dfs-bfs" />
+      <item itemvalue="Python.B11899_insert-kuahao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.B11899_insert-kuahao" />
+        <item itemvalue="Python.B1260_dfs-bfs" />
+        <item itemvalue="Python.S11628_node-distance" />
+        <item itemvalue="Python.B2688_choose-number" />
         <item itemvalue="Python.B15686_chicken-delivery" />
-        <item itemvalue="Python.B2961,J1127_delicious-food" />
-        <item itemvalue="Python.powerset" />
-        <item itemvalue="Python.1158_josephus" />
-        <item itemvalue="Python.J1661_maze-robot" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +408,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py</url>
-          <line>23</line>
+          <line>31</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -419,17 +418,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
-          <line>56</line>
+          <line>79</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
-          <line>69</line>
+          <line>92</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py</url>
-          <line>62</line>
+          <line>85</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -464,13 +463,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="95" />
+          <line>10</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="96" />
+          <url>file://$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/B1260_dfs-bfs.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/B11899_insert-kuahao.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

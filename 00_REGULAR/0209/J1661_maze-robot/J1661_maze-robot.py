@@ -18,7 +18,7 @@ def bfs(maze):
                     return time + 1
                 maze[ni][nj] = time + 1
                 queue.append((ni, nj, time + 1))
-
+    return maze[ei][ej]  # 도착을 못하는 경우
 
 J, I = map(int, input().split())
 sj, si, ej, ei = map(int, input().split())

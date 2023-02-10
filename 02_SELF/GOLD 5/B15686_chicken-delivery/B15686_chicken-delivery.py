@@ -4,12 +4,40 @@ sys.stdin = open('input.txt')
 
 from collections import deque
 
-def comb(cnt, si, arr):
+choice = []  # 이 크기를 고정해놓는 방식으로 해보기
+def comb(cnt, si):
     if cnt == M:
-        chicken_comb.append(arr)
+        chicken_comb.append(tuple(choice)) # 이렇게 하면 괜찮음
         return
     for i in range(si, whole_cnt):
-        comb(cnt+1, i+1, arr+[chicken[i]])
+        # comb(cnt+1, i+1, arr+[chicken[i]])  # 여기서 메모리를 너무 많이 쓰는게 아닐까
+        choice.append(chicken[i])
+        comb(cnt + 1, i + 1)
+        choice.pop()
+
+def bfs():
+    res_dist = 10 ** 7  # 이 부분을 100으로 해놔서 틀렸었음 힣
+    while chicken_comb:
+        c_combs = chicken_comb.popleft()
+        # print(elem)  # [(1, 2), (4, 1)]
+
+        # 이 조합의 최소 치킨 거리 ; 새로운 조합이 들어올 때 마다 갱신
+        city_dist = 0
+        for hi, hj in house:  # 모든 집에 대해서
+            house_dist = 100  # 치킨 거리: 한 집에서 가능한 최소 거리
+            for ci, cj in c_combs:  # 가능한 집들을 살펴 본다
+                # print('ci, cj= ', ci, cj)
+                dist = abs(hi - ci) + abs(hj - cj)
+                if house_dist > dist:  # 최솟값 갱신
+                    house_dist = dist
+            # 한 집 순회 끝
+            # print(house_dist)
+            city_dist += house_dist
+
+        # 모든 집에 대해서 다 순회하면
+        if res_dist > city_dist:
+            res_dist = city_dist
+    return res_dist
 
 
 # for _ in range(4):
@@ -31,29 +59,8 @@ for i in range(1, N+1):
 # 2. 조합 구하기
 whole_cnt = len(chicken)
 chicken_comb = deque()  # 각 원소는 치킨집 좌표 모음
-comb(0, 0, [])
+comb(0, 0)
 # print(chicken_comb)
 
 # 3. 이 조합 결과를 가지고 최소 거리를 구하기
-res_dist = 10**7  # 이 부분을 100으로 해놔서 틀렸었음 힣
-while chicken_comb:
-    c_combs = chicken_comb.popleft()
-    # print(elem)  # [(1, 2), (4, 1)]
-
-    # 이 조합의 최소 치킨 거리 ; 새로운 조합이 들어올 때 마다 갱신
-    city_dist = 0
-    for hi, hj in house:  # 모든 집에 대해서
-        house_dist = 100  # 치킨 거리: 한 집에서 가능한 최소 거리
-        for ci, cj in c_combs:  # 가능한 집들을 살펴 본다
-            # print('ci, cj= ', ci, cj)
-            dist = abs(hi-ci) + abs(hj-cj)
-            if house_dist > dist:  # 최솟값 갱신
-                house_dist = dist
-        # 한 집 순회 끝
-        # print(house_dist)
-        city_dist += house_dist
-
-    # 모든 집에 대해서 다 순회하면
-    if res_dist > city_dist:
-        res_dist = city_dist
-print(res_dist)
+print(bfs())
