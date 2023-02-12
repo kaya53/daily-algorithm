@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_REGULAR/0210/01_nonlinear-structure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/B1260_dfs-bfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/B11899_insert-kuahao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/B14503_robot-cleaner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels/B14891_wheels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 2/B15663_n-and-m/B15663_n-and-m.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/00_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00_algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0209/J1661_maze-robot/J1661_maze-robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_REGULAR/0209/RECURSIVE/B2961,J1127_delicious-food/B2961,J1127_delicious-food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2L7CTScDbfvjng2o0L8A13MmZgV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,14 +50,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="00_algorithm" is-module-sdk="true">
@@ -77,7 +79,7 @@
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S2001_kill-fly" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B11899_insert-kuahao">
+  <component name="RunManager" selected="Python.B15663_n-and-m">
     <configuration name="B11899_insert-kuahao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B1260_dfs-bfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B14503_robot-cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/SILVER 2/B1260_dfs-bfs/B1260_dfs-bfs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/B14503_robot-cleaner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B15686_chicken-delivery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B14891_wheels" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +130,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B15686_chicken-delivery/B15686_chicken-delivery.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels/B14891_wheels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="B15663_n-and-m" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/SILVER 2/B15663_n-and-m" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/SILVER 2/B15663_n-and-m/B15663_n-and-m.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,41 +185,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="S11628_node-distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="00_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_REGULAR/0208/S11628_node-distance/S11628_node-distance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.B15686_chicken-delivery" />
-      <item itemvalue="Python.B2688_choose-number" />
-      <item itemvalue="Python.S11628_node-distance" />
-      <item itemvalue="Python.B1260_dfs-bfs" />
+      <item itemvalue="Python.B14503_robot-cleaner" />
+      <item itemvalue="Python.B14891_wheels" />
+      <item itemvalue="Python.B15663_n-and-m" />
       <item itemvalue="Python.B11899_insert-kuahao" />
+      <item itemvalue="Python.B2688_choose-number" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.B11899_insert-kuahao" />
-        <item itemvalue="Python.B1260_dfs-bfs" />
-        <item itemvalue="Python.S11628_node-distance" />
+        <item itemvalue="Python.B15663_n-and-m" />
         <item itemvalue="Python.B2688_choose-number" />
-        <item itemvalue="Python.B15686_chicken-delivery" />
+        <item itemvalue="Python.B14503_robot-cleaner" />
+        <item itemvalue="Python.B14891_wheels" />
+        <item itemvalue="Python.B11899_insert-kuahao" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +223,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,6 +476,26 @@
           <url>file://$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/B11899_insert-kuahao.py</url>
           <line>10</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels/B14891_wheels.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/B14503_robot-cleaner.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
