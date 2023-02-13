@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/B14503_robot-cleaner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels/B14891_wheels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B14891_wheels/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 2/B15663_n-and-m/B15663_n-and-m.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/00_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00_algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab/B14502_lab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +43,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="00_algorithm" is-module-sdk="true">
@@ -79,20 +71,20 @@
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S2001_kill-fly" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B15663_n-and-m">
-    <configuration name="B11899_insert-kuahao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.B14502_lab">
+    <configuration name="B14502_lab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Python\pypy3.7-v7.3.4-win64\pypy3.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/SILVER 3/B11899_insert-kuahao/B11899_insert-kuahao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab/B14502_lab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,16 +181,16 @@
       <item itemvalue="Python.B14503_robot-cleaner" />
       <item itemvalue="Python.B14891_wheels" />
       <item itemvalue="Python.B15663_n-and-m" />
-      <item itemvalue="Python.B11899_insert-kuahao" />
       <item itemvalue="Python.B2688_choose-number" />
+      <item itemvalue="Python.B14502_lab" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.B14502_lab" />
         <item itemvalue="Python.B15663_n-and-m" />
         <item itemvalue="Python.B2688_choose-number" />
         <item itemvalue="Python.B14503_robot-cleaner" />
         <item itemvalue="Python.B14891_wheels" />
-        <item itemvalue="Python.B11899_insert-kuahao" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +215,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,6 +489,16 @@
           <url>file://$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py</url>
           <line>31</line>
           <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab/B14502_lab.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab/B14502_lab.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
