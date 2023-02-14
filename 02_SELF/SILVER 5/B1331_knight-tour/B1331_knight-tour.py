@@ -61,7 +61,7 @@ def not_knight(arr):
         # print('set', end=' ')
         return 'Invalid'
     else:
-        for i in range(35):
+        for i in range(36):
             # ci, cj = new_arr[i]
             # ni, nj = new_arr[i - 1]
             abs_col = abs(ord(arr[i][0]) - ord(arr[i-1][0]))
