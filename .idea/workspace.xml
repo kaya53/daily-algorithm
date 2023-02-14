@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbba818f-198b-4c7b-bde2-8c15ebeb7644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B21610-rain-cloud/B21610-rain-cloud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B21610-rain-cloud/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B17070_move-pipe/B17070_move-pipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B17070_move-pipe/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B21278_two-hosuk/B21278_two-hosuk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/GOLD 5/B21278_two-hosuk/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_SELF/SILVER 3/B1463_make-one/B1463_make-one.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/00_algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00_algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_SELF/SILVER 5/boj-1331/boj_1331.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_SELF/SILVER 5/B1331_knight-tour/B1331_knight-tour.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_SELF/SILVER 5/boj-1331/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02_SELF/SILVER 5/B1331_knight-tour/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <recent name="D:\SCSA\00_algorithm\00_REGULAR\0206\S2001_kill-fly" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B21610-rain-cloud">
+  <component name="RunManager" selected="Python.B21278_two-hosuk">
     <configuration name="B14502_lab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,27 +90,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 4/B14502_lab/B14502_lab.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="B14503_robot-cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="00_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B14503_robot-cleaner/B14503_robot-cleaner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,6 +119,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="B17070_move-pipe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B17070_move-pipe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B17070_move-pipe/B17070_move-pipe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="B21278_two-hosuk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="00_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B21278_two-hosuk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B21278_two-hosuk/B21278_two-hosuk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="B21610-rain-cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="00_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,41 +182,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B2688_choose-number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="00_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_SELF/GOLD 5/B2688_choose-number/B2688_choose-number.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.B17070_move-pipe" />
+      <item itemvalue="Python.B21278_two-hosuk" />
       <item itemvalue="Python.B14502_lab" />
-      <item itemvalue="Python.B14503_robot-cleaner" />
       <item itemvalue="Python.B15663_n-and-m" />
-      <item itemvalue="Python.B2688_choose-number" />
       <item itemvalue="Python.B21610-rain-cloud" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.B21278_two-hosuk" />
+        <item itemvalue="Python.B17070_move-pipe" />
         <item itemvalue="Python.B21610-rain-cloud" />
         <item itemvalue="Python.B14502_lab" />
         <item itemvalue="Python.B15663_n-and-m" />
-        <item itemvalue="Python.B2688_choose-number" />
-        <item itemvalue="Python.B14503_robot-cleaner" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +220,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
