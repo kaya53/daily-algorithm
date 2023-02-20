@@ -20,7 +20,7 @@ while True:
             if x == n-1:
                 belt[x][1] = 0  # n번째 칸에 로봇이 있으면 하차
                 continue
-            # if belt[x][0] >= 1: belt[x][0] -= 1  # 내구도 감소
+            # if belt[x][0] >= 1: belt[x][0] -= 1  # 내구도 감소 -- 한 칸씩 다 같이 갈 때는 이거 안해줘도 됨
 
     # print(belt)
     # 2. 로봇이 있는데, 로봇이 이동할 수 있다면 먼저 올라간 로봇부터 이동한다. -- 역순으로 이동
@@ -48,14 +48,3 @@ while True:
     if zero_cnt >= k:
         break
 print(stage)
-
-# belt = [[0]*n for _ in range(2)]
-#for idx, elem in enumerate(list(map(int, input().split()))):
-    # if idx < n:  # 첫째줄
-        # belt[0][idx] = elem
-    #else:
-        #idx = (n*2 - 1) - idx
-        #belt[1][idx] = elem
-# print(belt)
-
-
