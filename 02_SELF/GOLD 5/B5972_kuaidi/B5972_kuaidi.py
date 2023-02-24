@@ -1,5 +1,4 @@
 import sys
-import heapq
 sys.stdin = open('input.txt')
 
 # 우선 순위 큐; 큐에 들어가는 요소 중 첫번째 요소를 기준으로 정렬이 됨
@@ -7,6 +6,7 @@ sys.stdin = open('input.txt')
 # 짧은 것들(그 전에 봤던 경로가 더 짧다면 우선순위 큐에 넣어주지 않는다)만 큐에 들어가기 때문에
 # 꺼내서 판별을 할 때 최단 경로만 볼 수 있다.
 # 1 - n까지의 최단 경로
+import heapq
 
 n, m = map(int, input().split())
 graph = [[] for i in range(n)]  # 연결 정보
@@ -37,4 +37,4 @@ while hq:
             cows_ls[i[0]] = next_cow
             heapq.heappush(hq, (next_cow, i[0]))  # 소의 마리수, 노드 번호
 
-print(cows_ls)
+print(cows_ls[-1])
