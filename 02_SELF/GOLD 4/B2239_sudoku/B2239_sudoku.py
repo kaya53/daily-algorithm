@@ -21,7 +21,8 @@ def board_num(i, j):
 def backtrack(cnt):
     global res_ls
     if cnt == lenT:
-        res_ls = list(choice)
+        if not res_ls:
+            res_ls = [x[:] for x in arr]
         return
 
     ci, cj = target[cnt]
@@ -33,14 +34,11 @@ def backtrack(cnt):
         # 어디에도 안들어간 숫자가 있으면
         arr[ci][cj] = k
         row[ci][k-1] = col[cj][k-1] = square[bIdx][k-1] = 1
-        choice[cnt] = k
         # 다음 턴 -> 다음 0인 곳으로 넘기기
         backtrack(cnt + 1)
         # 바로 없애니까 아예 초기화가 되어버림
         arr[ci][cj] = 0
         row[ci][k-1] = col[cj][k-1] = square[bIdx][k-1] = 0
-        choice[cnt] = 0
-
 
 
 row = [[0] * 9 for _ in range(9)]
@@ -59,21 +57,15 @@ for i in range(9):
             square[idx][num-1] = 1
 
 target = []
-lenT = 0
+lenT = 0  # 채워야 할 빈칸 수
 for ii in range(9):
     for jj in range(9):
         if not arr[ii][jj]:
             target.append((ii, jj))
             lenT += 1
-choice = [None] * lenT
 res_ls = []
 backtrack(0)
 
-
-for x in range(lenT):
-    si, sj = target[x]
-    arr[si][sj] = res_ls[x]
-
-for elem in arr:
+for elem in res_ls:
     print(''.join(map(str, elem)))
 

@@ -10,8 +10,7 @@ def calc_r(lenR, lenC, arr, flag):
     new_arr = [[] for _ in range(min(lenR, 100))]
     len_ls = []
     if lenR > 100: # 100개 자르기
-        arr = [arr[i][:100] for i in range(min(lenR, 100))]
-    max_len = lenC
+        arr = [arr[i][:100] for i in range(100)]
     for r in range(lenR):
         now = arr[r]
         # cnt_ls = [0] * 101  # 0부터 100까지 세기
@@ -45,7 +44,9 @@ arr = [list(map(int, input().split())) for _ in range(3)]
 time = 0
 while True:
     try:  # r,c가 현재 배열 크기보다 큰 경우
-        if arr[R][C] == K or time > 100: break
+        # 여기서 time에 대한 조건이 뒤로 가니까 arr[r][c]가 k가 아니면
+        # time이 100이 넘어도 계속 돌아서 시간 초과가 났던 것이어따!
+        if time > 100 or arr[R][C] == K: break
     except: pass
     time += 1
     # 1. r / c 연산에 중 어떤 것을 할 지 정한다.
