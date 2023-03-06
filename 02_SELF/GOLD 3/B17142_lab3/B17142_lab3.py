@@ -72,7 +72,7 @@ for i in range(n):
             arr[i][j] = -1
             zero_cnt -= 1
 
-if zero_cnt:
+if zero_cnt:  # 이걸 안 해줘서 처음에 시간 초과 남
     choice = [0] * m
     activate(0, 0)
     if mmin == int(1e9):
