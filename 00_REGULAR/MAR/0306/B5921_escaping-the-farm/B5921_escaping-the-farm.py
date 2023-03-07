@@ -4,47 +4,37 @@ sys.stdin = open('input.txt')
 
 input = sys.stdin.readline
 
-def calc(arr):
-    arr = list(map(list, map(str, arr)))
 
-    minL = int(1e9)
-    for elem in arr:
-        if minL > len(elem):
-            minL = len(elem)
-    # print(len(arr), arr)  # 최소 자리수
-    for i in range(minL, 0, -1):
-        i *= -1
-        digit_sum = 0
-        for nums in arr:
-            digit_sum += int(nums[i])
-            if digit_sum >= 10:
-                return False
+def calc(ssum, now_cow):
+    while ssum and now_cow:
+        if ssum % 10 + now_cow % 10 >= 10:
+            return False
+        ssum //= 10
+        now_cow //= 10
     return True
 
 
-def comb(idx, endnum, choice):
-    global flag, res
-    if idx == endnum:
-        if calc(choice):
-            flag = 1
-            res = endnum
+def comb(idx, weight_sum, cnt):
+    global max_cnt
+    # 가지치기
+    # 보트에 탄 소 + 남은 소의 수(앞으로 태울 수 있는 소의 최대 수) < 현재 최대값이면 끝
+    if cnt + n - idx <= max_cnt: return
+    if idx >= n:
+        if max_cnt < cnt:
+            max_cnt = cnt
         return
-    for c in range(idx, n):
-        if not weights[c][1]:  # 아직 안올린 소
-            weights[c][1] = 1
-            choice[idx] = weights[c][0]
-            comb(idx+1, endnum, choice)
-            weights[c][1] = 0
-            choice[idx] = 0
+
+    if calc(weight_sum, weights[idx]):
+        # if cnt + n - idx > max_cnt:  # 위의 가지치기를 아래에도 적용; 가능성이 있을 때만 태우러 보냄
+        comb(idx+1, weight_sum + weights[idx], cnt + 1)
+        comb(idx+1, weight_sum, cnt)
+    else:
+        comb(idx+1, weight_sum, cnt)
 
 
 n = int(input())  # 소의 수
-weights = [[int(input()), 0] for _ in range(n)]
-flag = 0
-res = 0
-res_ls = []
-for i in range(n, 0, -1):
-    comb(0, i, [0] * i)
-    if flag: break
+weights = [int(input()) for _ in range(n)]
+max_cnt = 0
+comb(0, 0, 0)
 
-print(res)
+print(max_cnt)
