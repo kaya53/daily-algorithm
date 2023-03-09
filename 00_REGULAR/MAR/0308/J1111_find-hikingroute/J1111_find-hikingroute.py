@@ -1,3 +1,6 @@
+# tot_weight 구하는 부분 수정 전: 201ms
+# 수정 후: 173ms
+
 import sys
 
 sys.stdin = open('input.txt')
@@ -27,14 +30,15 @@ while q:
         if ni < 0 or ni >= n or nj < 0 or nj >= n: continue
         now_height = mountain[ci][cj]
         next_height = mountain[ni][nj]
-        tot_weight = 0  # 평지
-        if now_height < next_height:  # 내리막길
-            tot_weight = next_height - now_height
-        elif now_height > next_height:  # 오르막길
-            tot_weight = (now_height - next_height)**2
+        tot_weight = next_height - now_height  # 평지
+        if tot_weight < 0:  # 음수 - 오르막일 때 => 이렇게 하면 if-else 쓸 필요가 없음
+            tot_weight = tot_weight**2
+        # if now_height < next_height:  # 내리막길
+        #     tot_weight = next_height - now_height
+        # elif now_height > next_height:  # 오르막길
+        #     tot_weight = (now_height - next_height)**2
 
-        std = visited[ni][nj]
-        if std > visited[ci][cj] + tot_weight:
+        if visited[ni][nj] > visited[ci][cj] + tot_weight:
             visited[ni][nj] = visited[ci][cj] + tot_weight
             q.append((ni, nj))
 
