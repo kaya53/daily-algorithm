@@ -13,29 +13,20 @@ def move_color(ni, nj, d, horse_no, clr, horse_info):
     elif clr == 2:  # 파란색
         if chess[ni][nj] != 2:  # 반대로 돌았는데 파란색이 아닌 경우
             infos[horse_no] = [ni, nj, d]  # 기존 말의 정보 수정; 좌표, 방향 수정
-            # 내 말 하나만 이동
-            nnext = horse_info[ni][nj]
-            if nnext:
-                nnext[horse_no] = len(nnext)
-            else:
-                horse_info[ni][nj] = {horse_no: 0}  # 말 번호, 순서
+
 
 
 def move_horses():
     for i in range(1, k+1):  # 1번부터 k까지 차례로 이동
         hi, hj, hd = infos[i]  # 현재 말의 좌표와 방향
         now_horse = horse_info[hi][hj]  # 현재 말 위에 얼마나 얹혀져 있는 지
-        if now_horse and len(now_horse) > 1:
-            tmp = [0] * len(now_horse)
-            tmp[0] = i
-            std = now_horse[i]  # 현 좌표에서 지금 말의 순서
-            for z in range(i, k+1):
-                if now_horse[z] < std: continue
-                tmp[now_horse[z]-std] = i
-            now_horse = tmp
         ni, nj = hi + delta[hd][0], hj + delta[hd][1]
         # 인덱스 밖 or 파란색인 경우
         if ni < 0 or ni >= n or nj < 0 or nj >= n or chess[ni][nj] == 2:
+            # 옮길 말 찾기
+            for nh in now_horse:
+                if nh == i:
+                    pass
             oppo_d = (5 - hd) % 4
             ni, nj = hi + delta[oppo_d][0], hj + delta[oppo_d][1]
             move_color(ni, nj, oppo_d, i, 2, 0)
