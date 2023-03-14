@@ -1,2 +1,4 @@
-inp = list(map(int, input().split()))
-print(len(inp))
+a = [1,2,4]
+b = {}
+b[a] = 1
+print(b)
