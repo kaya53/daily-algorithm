@@ -1,0 +1,33 @@
+# 데이터가 크고, 반복이 많은 경우
+# 1. 함수 만들지 말 것 : call - return 구조 시간 걸림
+# 2. 2중 리스트, 클래스 생성 하지 말 것
+     # nodes = [[0, 0] for _ in range(1000)]
+     node_prev = [0] * 1000
+     node_next = [0] * 1000
+# 3. 여러 줄을 입력을 받아 저장하는 구조를 사용하지 말 것
+     #cmd_list = [input().split() for _ in range(M)]
+     #for cmd in cmd_list:
+     #    ...
+    
+     for i in range(M):
+         cmd = input().split()
+         # 처리
+
+# 4. 출력 내용 여러 줄 인 경우 - str.join 대신 __pypy__.builders.StringBuilder()
+    # sol = [0] * 10000
+    # sol[i] = str(no)
+    # print('\n'.join(sol))
+
+    import os, __pypy__
+    ans = __pypy__.builders.StringBuilder()
+    ans.append(str(no) + '\n')
+   
+    os.write(1, ans.build().encode())
+ 
+# 5. 입력 내용이 여러 줄 인 경우 - input 대신 input = sys.stdin.readline
+    # https://www.acmicpc.net/blog/view/56
+    input = io.BytesIO(os.read(0, os.fstat(0).st_size)).readline  # 찾아보기
+
+
+
+
