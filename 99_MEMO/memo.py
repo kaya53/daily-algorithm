@@ -1,4 +1,4 @@
-a = [1,2,4]
-b = {}
-b[a] = 1
-print(b)
+import math
+
+print(math.floor(5/2))
+print(5//2)
