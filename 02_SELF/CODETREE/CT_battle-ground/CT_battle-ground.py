@@ -3,6 +3,7 @@ import sys
 # sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
+
 def move_player(no):
     ci, cj, d = players[no][:3]
     ni, nj = ci + delta[d][0], cj + delta[d][1]
