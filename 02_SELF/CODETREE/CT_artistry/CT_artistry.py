@@ -57,7 +57,6 @@ def calc_harmony(comb_ls, visited):
             for di, dj in delta:
                 ni, nj = ci + di, cj + dj
                 if ni < 0 or ni >= n or nj < 0 or nj >= n or checked[ni][nj]: continue
-                # if visited[ni][nj] != g1 and visited[ni][nj] != g2: continue
                 if visited[ni][nj] == g2:
                     adj_cnt += 1
                     continue

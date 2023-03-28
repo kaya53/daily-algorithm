@@ -106,9 +106,3 @@ for r in range(6):
     res += sum(green[r])
     res += sum(blue[r])
 print(score, res, sep='\n')
-# for g in green:
-#     print(g)
-# print()
-# for b in blue:
-#     print(b)
-# print()
