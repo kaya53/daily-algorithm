@@ -1,8 +1,8 @@
 import sys
 
 # sys.stdin = open('input.txt')
-
 input = sys.stdin.readline
+
 
 def control_smell(smell):
     pop_ls = []
@@ -59,15 +59,8 @@ def move_shark(smell):
 def solve():
     move = 0
     smell = {}  # (ci, cj) : (shark_no, time)
-    while True:
-        # 종료 조건
-        if move > 1000:
-            # print(shark)
-            return -1
-        # 1번 상어만 남아 있으면 끝
-        # if len(shark) == 1 and shark.get(0, -1) != -1:
+    for _ in range(1001):
         if len(shark) == 1:  # 이렇게만 해줘도 됨
-            # print(shark)
             return move
 
         # 1. 자신의 위치에 냄새 뿌리기
@@ -77,6 +70,7 @@ def solve():
         move += 1
         # 3. 한 칸 이동했으면 냄새 + 1하고 k가 지난 건 사라지게
         smell = control_smell(smell)
+    return -1
 
 
 # start

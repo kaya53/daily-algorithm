@@ -66,12 +66,14 @@ for x in range(k):
     horse_arr[r-1][c-1] = [x+1]
 
 turn = 0
-while True:
+for _ in range(1001):
     turn += 1
-    if turn > 1000:
-        print(-1)
-        break
+    # if turn > 1000:  # 이런 경우 for로 짜는 게 더 낫다
+    #     print(-1)
+    #     break
     if not move_horse():
         print(turn)
         break
+else:
+    print(-1)
 

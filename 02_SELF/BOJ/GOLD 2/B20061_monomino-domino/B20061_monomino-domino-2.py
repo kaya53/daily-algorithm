@@ -1,8 +1,9 @@
 import sys
 
-sys.stdin = open('input.txt')
-
+# sys.stdin = open('input.txt')
 input = sys.stdin.readline
+
+
 # 빨강에서 초록, 파랑보드로 움직임
 def move(b, si, sj):
     if b == 1:

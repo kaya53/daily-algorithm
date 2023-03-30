@@ -4,6 +4,7 @@ sys.stdin = open('input.txt')
 
 input = sys.stdin.readline
 
+
 def move(loc, dice):  # 이동할 말 번호, 이동 전 말 위치, 이동할 칸 수
     step = 0
     # 이동하다가 25를 만나면
@@ -31,11 +32,14 @@ def backtrack(idx, score):
         now = horses[i]
         if new_board[now] == 42: continue  # 도착점 도착
         new_loc = move(now, dices[idx])
-        if new_board[new_loc] != 42:
+        if new_board[new_loc] != 42:  # 이미 말이 있는 점에 도착
             if new_loc in horses or same_dict.get(new_loc, -1) in horses: continue
+        # 백트래킹 하는 부분
         horses[i] = new_loc
-        if new_board[horses[i]] == 42: backtrack(idx + 1, score)
-        else: backtrack(idx+1, score+new_board[horses[i]])
+        if new_board[horses[i]] == 42: 
+            backtrack(idx + 1, score)
+        else: 
+            backtrack(idx+1, score+new_board[horses[i]])
         horses[i] = now
 
 
