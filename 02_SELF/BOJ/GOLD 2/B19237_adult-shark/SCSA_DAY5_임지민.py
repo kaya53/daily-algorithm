@@ -60,7 +60,7 @@ def solve():
     move = 0
     smell = {}  # (ci, cj) : (shark_no, time)
     for _ in range(1001):
-        if len(shark) == 1:
+        if len(shark) == 1: 
             return move
 
         # 1. 자신의 위치에 냄새 뿌리기
