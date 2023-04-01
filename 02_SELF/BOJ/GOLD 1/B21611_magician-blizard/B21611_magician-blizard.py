@@ -123,9 +123,6 @@ def bead_control():
                 ni, nj = ci + delta[cd][0], cj + delta[cd][1]
                 if (ni, nj) in corners: cd = snail_d[cd]
                 ci, cj = ni, nj
-            # if s_cnt >= 4:
-            #     res = True
-            #     for ii, jj in same: arr[ii][jj] = 0
             controlled.extend([s_cnt, b])
         else:  # 연속한 구슬이 1개
             controlled.extend([1, arr[ci][cj]])
@@ -147,11 +144,9 @@ for _ in range(M):
     nd, ns = map(int, input().split())
     destroy_beads(nd-1, ns)
     pull_bead()
-    # bomb_bead()
     while bomb_bead():
         pull_bead()
     bead_control()
-    # for a in arr:
-    #     print(a)
+
 print(bead1+(2*bead2)+(3*bead3))
 
