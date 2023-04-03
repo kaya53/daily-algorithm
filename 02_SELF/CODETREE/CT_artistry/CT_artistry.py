@@ -28,7 +28,7 @@ def find_group():
             if not visited[i][j]:
                 cnt, visited = ff(i, j, visited, group_no, arr[i][j])
                 group_no += 1
-                group.append((i, j, arr[i][j], cnt))
+                group.append((i, j, arr[i][j], cnt))  # 전역 변수 group
     return visited
 
 
@@ -68,6 +68,7 @@ def calc_harmony(comb_ls, visited):
             g2_num, g2_cnt = group[g2][2:]
             now_sc = (g1_cnt + g2_cnt) * g1_num * g2_num * adj_cnt
             score += now_sc
+
 
 def rotate(arr):
     rotated = [[0] * n for _ in range(n)]

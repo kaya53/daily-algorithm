@@ -22,7 +22,7 @@ def paper_on_off(si, sj, size, marking):
 
 def backtrack(ci, cnt, one_cnt, paper_ls, paper_cnt):  # 현재 좌표, 선택한 색종이 개수
     global res
-    if res <= cnt: return
+    if res <= cnt: return  # 현재 개수가 최소값보다 같거나 크면
     if not paper_cnt: return  # 25장 다 쓴 경우
     if not one_cnt:
         res = min(res, cnt)

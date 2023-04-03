@@ -5,6 +5,8 @@ sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
 def grow_tree():
+    # 어차피 arr에서 빼고 하는 것 없이 구한 tree_cnt만 더해주면 되므로; 나무가 있냐 없냐가 문제니깐
+    # 여기서는 임시 배열이 굳이 필요가 없다.
     can_grow = [[0] * N for _ in range(N)]
     for i in range(N):
         for j in range(N):
@@ -14,7 +16,7 @@ def grow_tree():
                 ni, nj = i+di, j+dj
                 if ni < 0 or ni >= N or nj < 0 or nj >= N: continue
                 if arr[ni][nj] > 0: tree_cnt += 1
-            can_grow[i][j] += tree_cnt
+            can_grow[i][j] += tree_cnt  # 여기서 바로 arr에 더해줘도 됨!
     for ii in range(N):
         for jj in range(N):
             arr[ii][jj] += can_grow[ii][jj]
