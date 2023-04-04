@@ -4,6 +4,7 @@ from collections import deque
 input = sys.stdin.readline
 # sys.stdin = open('input.txt')
 
+
 # 처음에 한번만 호출
 # 이동선과 멤버 수를 찾는 함수
 def bfs(si, sj):
