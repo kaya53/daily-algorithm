@@ -60,7 +60,7 @@ while True:
         base_q[time] = deque([(bi, bj)])
     # 한 칸씩 이동하기; 1번부터 차례로 이동
     for no in range(1, m+1):
-        if no == time: continue
+        if no == time: continue  # 지금 베이스캠프에 들어온 사람은 제외하고 이동
         if not base_q[no]: continue
         base_q[no] = move(base_q[no], conv[no])
 
