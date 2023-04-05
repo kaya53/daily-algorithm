@@ -44,7 +44,6 @@ def comb(len_group):
 def calc_harmony(comb_ls, visited):
     global score
 
-    harmony = [] * len(comb_ls)
     for g1, g2 in comb_ls:
         checked = [[0] * n for _ in range(n)]
         si, sj = group[g1][0], group[g1][1]

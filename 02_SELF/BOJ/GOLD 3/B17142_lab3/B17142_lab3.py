@@ -4,6 +4,7 @@ sys.stdin = open('input.txt')
 
 from collections import deque
 
+
 def spread(choice, arr, zeros):
     global mmin
     now_max = 0
@@ -36,7 +37,7 @@ def spread(choice, arr, zeros):
                 zeros -= 1
                 arr[ni][nj] = time + 1
     
-    # 빈칸이 있으면 최소값 갱신하지 말고 패스
+    # 빈칸이 있으면 최소값 갱신하지 말고 패스 => 모든 빈칸에 바이러스가 퍼진 상태가 아니므로
     if zeros: return
     if mmin > now_max:
         mmin = now_max
