@@ -1,8 +1,8 @@
 import sys
 from collections import deque
 
-
 input = sys.stdin.readline
+
 
 def find_basecamp(conv):
     si, sj = conv
@@ -45,10 +45,11 @@ def move(q, conv):
         return q
 
 
-delta = [(-1, 0), (0, -1), (0, 1), (1, 0)]
+# delta = [(-1, 0), (0, -1), (0, 1), (1, 0)]
+delta = [(1, 0), (0, 1), (0, -1), (-1, 0)]
 n, m = map(int, input().split())
 arr = [list(map(int, input().rstrip().split())) for _ in range(n)]
-conv = [0] + [list(map(lambda x: x-1, map(int, input().rstrip().split()))) for _ in range(m)]
+conv = [0] + [list(map(lambda x: int(x)-1, input().rstrip().split())) for _ in range(m)]
 
 base_q = [0] * (m+1)
 time = cnt = 0
@@ -56,6 +57,7 @@ while True:
     time += 1
     if time <= m:
         bi, bj = find_basecamp(conv[time])
+        print(m, bi, bj)
         arr[bi][bj] = -1
         base_q[time] = deque([(bi, bj)])
     # 한 칸씩 이동하기; 1번부터 차례로 이동

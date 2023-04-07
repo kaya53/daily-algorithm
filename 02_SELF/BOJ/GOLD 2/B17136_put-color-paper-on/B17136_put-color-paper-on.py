@@ -46,16 +46,15 @@ def backtrack(ci, cnt, one_cnt, paper_ls, paper_cnt):  # 현재 좌표, 선택�
                 one_cnt += size * size
 
 
-for _ in range(8):
-    arr = [list(map(int, input().split())) for _ in range(10)]
-    res = 26
-    paper_ls = [0] + [5]*5
-    one_cnt = 0
-    for a in arr:
-        one_cnt += sum(a)
-    backtrack(0, 0, one_cnt, paper_ls, 25)
-    if res == 26:
-        print(-1)
-    else:
-        print(res)
-
+# for _ in range(8):
+arr = [list(map(int, input().split())) for _ in range(10)]
+res = 26
+paper_ls = [0] + [5]*5
+one_cnt = 0
+for a in arr:
+    one_cnt += sum(a)
+backtrack(0, 0, one_cnt, paper_ls, 25)
+if res == 26:
+    print(-1)
+else:
+    print(res)

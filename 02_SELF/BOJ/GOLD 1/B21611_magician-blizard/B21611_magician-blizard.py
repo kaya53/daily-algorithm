@@ -49,7 +49,6 @@ def put_bead(ls):
         ci, cj = ni, nj
 
 
-
 # 빈칸 하나씩 당기는 함수
 def pull_bead():
     # 숫자만 뽑기
