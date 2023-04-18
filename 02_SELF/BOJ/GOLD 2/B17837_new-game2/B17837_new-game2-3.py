@@ -14,14 +14,11 @@ def move_horse():
         horses_info[hi][hj] = now[:idx]
 
         if arr[nhi][nhj] == 0:
-            if white_and_red(moved, nhi, nhj) is False:
-                return False
+            if white_and_red(moved, nhi, nhj) is False: return False
         elif arr[nhi][nhj] == 1:
-            if white_and_red(moved[::-1], nhi, nhj) is False:
-                return False
+            if white_and_red(moved[::-1], nhi, nhj) is False: return False
         elif arr[nhi][nhj] == 2:
-            if blue(moved, hi, hj, hd^1, h) is False:
-                return False
+            if blue(moved, hi, hj, hd^1, h) is False: return False
 
 
 def white_and_red(moved, ni, nj):
@@ -39,22 +36,19 @@ def blue(moved, ci, cj, d, no):
     ni, nj = ci + delta[d][0], cj + delta[d][1]
     # 방향 바꾸기
     horses[no][-1] = d
-    if arr[ni][nj] == 0:
+    if arr[ni][nj] == 2:
+        # 다시 원래 대로 horses_dict 돌려 놓기
+        horses_info[ci][cj] += moved
+        if len(horses_info[ci][cj]) >= 4: return False
+    elif arr[ni][nj] == 0:
         white_and_red(moved, ni, nj)
     elif arr[ni][nj] == 1:
         white_and_red(moved[::-1], ni, nj)
-    elif arr[ni][nj] == 2:
-        # 다시 원래 대로 horses_dict 돌려 놓기
-        horses_info[ci][cj] += moved
-        horses[no][-1] = d ^ 1
-        if len(horses_info[ci][cj]) >= 4:
-            return False
 
 
 # input
 delta = [(0, 1), (0, -1), (-1, 0), (1, 0)]
-# oppo = [1, 0, 3, 2]
-# for _  in range(5):
+
 N, K = map(int, input().split())
 blues = [[2] * (N+2)]
 arr = blues + [[2] + list(map(int, input().split())) + [2] for _ in range(N)] + blues
