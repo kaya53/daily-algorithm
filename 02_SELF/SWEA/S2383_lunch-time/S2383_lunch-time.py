@@ -1,3 +1,10 @@
+# 230501 461ms
+
+# "몇 분 후"의 개념
+# 계단 입구에 도착하면, 1분 후 아래칸으로 내려갈 수 있다.
+# 이미 계단을 3명이 내려가고 있는 경우, 그 중 한 명이 계단으로 "완전히" 내려갈 때까지 대기해야 한다.
+
+
 import sys
 
 sys.stdin = open('sample_input.txt')
@@ -37,7 +44,6 @@ def check(choice):
         for ppl_no in range(P):
             if time_ls[ppl_no]: time_ls[ppl_no] -= 1
             now_stair = choice[ppl_no] - 1
-            # q = stair_q[now_stair]
             
             # 계단까지 이동함 + 계단에 빈 자리 있음 + 계단을 아직 타지 않은 사람
             if not time_ls[ppl_no] and len(stair_q[now_stair]) < 3 and not in_stair[ppl_no]:
@@ -47,6 +53,7 @@ def check(choice):
     mmin = min(mmin, t+1)
 
 
+# powerset
 def comb(idx):
     if idx == P:
         check(choice)
@@ -61,17 +68,18 @@ T = int(input())
 for tc in range(1, T+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
-
-    ppl = []
-    stairs = []
+    
+    # 격자에서 사람과 계단 분류
+    ppl = []  # 사람 좌표
+    stairs = []  # 계단 좌표, 계단 길이
     for n in range(N):
         for m in range(N):
-            if arr[n][m] == 1:
-                ppl.append((n, m))
-            elif arr[n][m] > 1:
-                stairs.append([n, m, arr[n][m]])
+            if arr[n][m] == 1: ppl.append((n, m))
+            elif arr[n][m] > 1: stairs.append([n, m, arr[n][m]])
+    # 총 인원
     P = len(ppl)
 
+    # main
     choice = [0] * P
     mmin = int(1e9)
     comb(0)
