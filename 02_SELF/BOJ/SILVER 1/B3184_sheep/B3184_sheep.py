@@ -45,6 +45,6 @@ for i in range(N):
     for j in range(M):
         if arr[i][j] == 'v' and not visited[i][j]:
             bfs(i, j, 1, 0)
-        elif arr[i][j] == 'v' and not visited[i][j]:
+        elif arr[i][j] == 'o' and not visited[i][j]:
             bfs(i, j, 0, 1)
 print(sheep, wolf)

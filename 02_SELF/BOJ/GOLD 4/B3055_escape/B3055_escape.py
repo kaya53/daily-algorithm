@@ -1,6 +1,7 @@
 # 230503 python 72ms
+# 다른 방법:
 # visited에 물이 퍼진 시간을 저장하고, 고슴도치가 이동한 시간을 비교해서 고슴도치가 더 먼저 도착했으면 이동할 수 있도록 처리해도 된다
-
+# => 근데 이 방법은 물을 무조건 다 퍼뜨려야 하므로 시간이 더 소요될 수 있다.
 import sys
 
 sys.stdin = open('input.txt')
@@ -17,7 +18,7 @@ def bfs(si, sj, water_q):
         time += 1
         # 물 먼저 퍼뜨리고
         while water_q:
-            for _ in range(len(water_q)):
+            for _ in range(len(water_q)):  # 동일 너비에 대한 처리
                 wi, wj = water_q.popleft()
                 for dwi, dwj in delta:
                     nwi, nwj = wi + dwi, wj + dwj
@@ -55,12 +56,9 @@ water_q = deque()
 # 고슴도치 시작점, 물 찾기
 for i in range(R):
     for j in range(C):
-        if arr[i][j] == 'S':
-            si, sj = i, j
-        elif arr[i][j] == 'D':
-            ei, ej = i, j
-        elif arr[i][j] == '*':
-            water_q.append((i, j))
+        if arr[i][j] == 'S': si, sj = i, j
+        elif arr[i][j] == 'D': ei, ej = i, j
+        elif arr[i][j] == '*': water_q.append((i, j))
 
 visited = [[0] * C for _ in range(R)]
 print(bfs(si, sj, water_q))
