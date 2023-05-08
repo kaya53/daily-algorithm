@@ -4,30 +4,18 @@ sys.stdin = open('input.txt')
 
 
 def bomb(t):
-    # for a in arr:
-    #     print(a)
-    # print()
     # 남은 폭탄 시간 깎기
     for ii in range(R):
         for jj in range(C):
             if 0 < arr[ii][jj] <= 3: arr[ii][jj] -= 1
-    # print('시간 깎기')
-    # for a in arr:
-    #     print(a)
-    # print()
 
-    if t < 2: return
-
+    if t == 1: return
     # 폭탄 설치
     for i in range(R):
         for j in range(C):
             if arr[i][j] == -1:
                 arr[i][j] = 3
-    # print('설치')
-    # for a in arr:
-    #     print(a)
-    # print()
-    # 동시에 터짐
+
     bombed = []
     for i in range(R):
         for j in range(C):
@@ -39,11 +27,7 @@ def bomb(t):
     # 터뜨림
     for bi, bj in bombed:
         arr[bi][bj] = -1
-    # print('터뜨림')
-    # print(bombed)
-    # for a in arr:
-    #     print(a)
-    # print()
+
 
 
 delta = [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -56,15 +40,18 @@ for r in range(R):
         if inp[c] == '.': inp[c] = -1
         elif inp[c] == 'O': inp[c] = 3
     arr[r] = inp
+# N = 19
 limit = N
 if N > 5 and (N % 4) == 3:
-    limit = (N % 4) - 1
-elif N > 5 and (N % 4) != 3:
-    limit = (N % 4) + 3
+    limit = 1
+elif N > 5 and (N % 4) == 1:
+    limit = 3
+elif not N % 2:
+    limit = 2
 
-for time in range(limit+1):
+# print(limit)
+for time in range(1, limit+1):
     # print(time, '초')
-    if time == 0: continue
     bomb(time)
     # print('-------------')
 
