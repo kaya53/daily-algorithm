@@ -1,8 +1,9 @@
+# 한칸씩 옆으로 가면서 보기 때문에 visited를 굳이 쓸 필요가 없음
 import sys
 
 # sys.stdin = open('input.txt')
-
 input = sys.stdin.readline
+
 
 def row_first(line, visited):
     j = 0
@@ -34,7 +35,7 @@ def row_first(line, visited):
 # for _ in range(4):
 n, l = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(n)]
-# visited = [[0] * n for _ in range(n)]
+
 cnt = 0
 for row in arr:
     if row_first(row, [0] * n):
