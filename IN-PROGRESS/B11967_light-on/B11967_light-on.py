@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('input.txt')
+# sys.stdin = open('input.txt')
 
 from collections import deque
 
@@ -8,37 +8,44 @@ from collections import deque
 def bfs():
     global mmax
 
-    if info.get((0,0), -1) == -1: return 0
-    cc = 1
-    for r, c in info[(0, 0)]:
-        arr[r][c] = 1
-        cc += 1
-    visited[0][0] = 1
+    if info.get((0, 0), -1) == -1: return
+
+    visited[0][0] = 0
     arr[0][0] = 1
     q = deque()
-    q.append((0, 0, cc))
+    q.append((0, 0, 1))
 
+    dist = 0
     while q:
-        ci, cj, cnt = q.popleft()
-        if mmax < cnt: mmax = cnt
-
-        for di, dj in [(-1,0), (1, 0), (0, -1), (0, 1)]:
-            ni, nj = ci + di, cj + dj
-            if ni < 0 or ni >= N or nj < 0 or nj >= N or visited[ni][nj]: continue
-            if not arr[ni][nj]: continue
-
-            if info.get((ni, nj), -1) != -1:
-                num = len(info[(ni, nj)])
-                for ii, jj in info[(ni, nj)]:
+        dist += 1
+        for _ in range(len(q)):
+            ci, cj, cnt = q.popleft()
+            
+            # 불 켜기
+            if info.get((ci, cj), -1) != -1:
+                ti, tj = -1, -1
+                for ii, jj in info[(ci, cj)]:
                     if arr[ii][jj]: continue
                     arr[ii][jj] = 1
-                    if visited[ii][jj]: q.append((ii, jj, cnt+num))
-                q.append((ni, nj, cnt+num))
-            else:
-                q.append((ni, nj, cnt))
-            visited[ni][nj] = 1
+                    cnt += 1
+                    if -1 < visited[ii][jj] < dist:
+                        ti, tj = ii, jj
+                if ti > -1 and tj > -1:
+                    q.append((ti, tj, cnt))
+
+            if mmax < cnt: mmax = cnt
+
+            for di, dj in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+                ni, nj = ci + di, cj + dj
+                if ni < 0 or ni >= N or nj < 0 or nj >= N: continue
+                if visited[ni][nj] == -1: visited[ni][nj] = dist
+                if not arr[ni][nj]: continue
+
+                if visited[ni][nj] == dist:
+                    q.append((ni, nj, cnt))
 
 
+# for _ in range(3):
 N, M = map(int, input().split())
 info = {}
 for _ in range(M):
@@ -48,10 +55,9 @@ for _ in range(M):
     info[(si, sj)].add((ei, ej))
 
 
-visited = [[0]*N for _ in range(N)]
+visited = [[-1]*N for _ in range(N)]
 arr = [[0]*N for _ in range(N)]
-mmax = 0
+mmax = 1
 bfs()
+
 print(mmax)
-for a in arr:
-    print(a)
