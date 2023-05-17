@@ -42,7 +42,6 @@ for _ in range(M):
     si, sj, ei, ej = map(lambda x: int(x) - 1, input().split())
     if info.get((si, sj), -1) == -1:
         info[(si, sj)] = []
-
     info[(si, sj)].append((ei, ej))
 
 arr = [[0] * N for _ in range(N)]
