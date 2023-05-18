@@ -1,7 +1,7 @@
 import sys
 
-sys.stdin = open('input.txt')
-
+# sys.stdin = open('input.txt')
+input = sys.stdin.readline
 
 def dfs(ci, cj):
     if (ci, cj) == (N-1, M-1): return 1
