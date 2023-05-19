@@ -15,7 +15,7 @@ def dfs(ci, cj):
         # 메모된 것: ni, nj에서 갈 수 있는 최대 칸
         # 그 최대 칸 +1이 내가 갈 수 있는 칸
         if memo[ni][nj]: res_max = max(res_max, memo[ni][nj])
-        
+
         # 메모된 것이 없음
         # dfs를 돌려서 최대 칸 수를 알아내야 함
         else:
@@ -32,13 +32,9 @@ N = int(input())
 arr = [list(map(int, input().split())) for _ in range(N)]
 memo = [[0] * N for _ in range(N)]
 
+mmax = 0
 for si in range(N):
     for sj in range(N):
-        dfs(si, sj)
-
-mmax = 0
-for i in range(N):
-    for j in range(N):
-        if mmax < memo[i][j]: mmax = memo[i][j]
+        mmax = max(mmax, dfs(si, sj))
 
 print(mmax)
