@@ -33,7 +33,6 @@ def bfs(si, sj, color):
 
 
 def hit_bombs(si, sj, color):
-    cnt = 0
     q = deque([(si, sj)])
     while q:
         ci, cj = q.popleft()
@@ -41,13 +40,12 @@ def hit_bombs(si, sj, color):
             ni, nj = ci + di, cj + dj
             if ni < 0 or ni >= N or nj < 0 or nj >= N: continue
             if arr[ni][nj] < 0 or (arr[ni][nj] >= 1 and arr[ni][nj] != color): continue
-            cnt += 1
             arr[ni][nj] = -2  # 터진 폭탄 표시
             q.append((ni, nj))
-    return cnt
 
 
-def gravity(arr):
+# 2048과 유사
+def gravity():
     for jj in range(N):
         nums = []
         empty = []
@@ -57,10 +55,8 @@ def gravity(arr):
                 new += empty + nums + [-1]
                 empty = []
                 nums = []
-            elif arr[ii][jj] == -2:
-                empty.append(-2)
-            else:
-                nums.append(arr[ii][jj])
+            elif arr[ii][jj] == -2: empty.append(-2)
+            else: nums.append(arr[ii][jj])
         new += empty + nums
         # print(new)
         for pi in range(N):
@@ -80,31 +76,21 @@ while True:
             if arr[i][j] > 0:
                 w, r, sti, stj = bfs(i, j, arr[i][j])
                 if w > 1: candidates.append((w, r, sti, stj))
+    # 더 이상 터뜨릴 폭탄이 없으면 끝
     if not candidates: break
+
     candidates.sort(key=lambda x:[x[0], -x[1], x[2], -x[3]])
     bombed = candidates.pop()
-    # print(bombed)
 
     # 2. 폭탄 터뜨리기
-    res = hit_bombs(bombed[2], bombed[3], arr[bombed[2]][bombed[3]])
-    score += res*res
+    hit_bombs(bombed[2], bombed[3], arr[bombed[2]][bombed[3]])
+    score += bombed[0]**2
 
-    # 3. 중력 작용 => 전치해서 하고 다시 되돌려 놓기
-    # for a in arr:
-    #     print(a)
-    # print()
-    gravity(arr)
-    # for a in arr:
-    #     print(a)
-    # print()
-    arr = list(map(list, zip(*arr)))[::-1]
-    # for a in arr:
-    #     print(a)
-    # print()
-    gravity(arr)
-    # for a in arr:
-    #     print(a)
-    # print()
-    # break
+    # 3. 중력 작용
+    gravity()
+    # 4. 반시계 방향 90도 회전
+    arr = list(map(list, zip(*arr)))[::-1] 
+    gravity()
+
 print(score)
 

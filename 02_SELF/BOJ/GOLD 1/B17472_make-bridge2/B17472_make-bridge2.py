@@ -1,8 +1,14 @@
-# 230523 python 88ms
+# 230523 python 88ms => 68ms
 # 최소 신장 트리
 # 어떻게 최소 신장 트리 문제인 지 생각할 수 있을까?
 # 1. 섬을 연결하는 다리 길이의 총합이 최소가 되도록 연결하라고 함
 # 2. 모든 섬이 연결되지 않는 경우는 -1 출력
+
+# 크루스칼
+# 다리가 수직, 수평만 가능하기 때문에, 가능한 간선이 많지 않을 것이기 때문에 가능하다.
+
+# 최적화
+# if ret and ret not in edge_ls: edge_ls.append(ret) 이 부분에서 not in 코드 빼니까 68ms 나옴
 import sys
 
 sys.stdin = open('input.txt')
@@ -51,8 +57,8 @@ def find_bridge(island_no, si, sj, d):
         elif arr[ni][nj] == 0:
             q.append((ni, nj, length+1))
             visited[ni][nj] = 1
-    if edge:
-        return edge
+
+    if edge: return edge
 
 
 def find(a):
@@ -65,7 +71,7 @@ def union(a, b):
     root_a = find(a)
     root_b = find(b)
     if root_b == root_a: return False
-    parents[root_a] += parents[root_b]
+    # parents[root_a] += parents[root_b]
     parents[root_b] = root_a
     return True
 
@@ -91,7 +97,8 @@ for idx, island in enumerate(whole_island, start=1):
     for bi, bj in island:
         for k in range(4):  # 다리가 중간에 방향이 바뀌면 안되니까
             ret = find_bridge(idx, bi, bj, k)
-            if ret and ret not in edge_ls: edge_ls.append(ret)
+            # if ret and ret not in edge_ls: edge_ls.append(ret)
+            if ret: edge_ls.append(ret)
 
 # 3. 가중치를 기준으로 정렬
 edge_ls.sort(key=lambda x: x[-1])
@@ -104,6 +111,7 @@ for s, e, edge_len in edge_ls:
     if union(s-1, e-1): res += edge_len
 
 # output
+# 이렇게 안하고 연결된 간선의 개수가 (정점-1)개 이면으로 해도 됨
 tmp = 0
 for p in parents:
     if p < 0: tmp += 1
