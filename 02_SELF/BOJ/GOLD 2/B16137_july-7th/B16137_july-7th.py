@@ -17,14 +17,13 @@ from collections import deque
 
 def find_possible_cliff():
     cliff = []
-
     for r in range(N):
         for c in range(N):
             if arr[r][c] == 0:
                 for di, dj, ddi, ddj in check_delta:
                     ni, nj, nni, nnj = r+di, c+dj, r+ddi, c+ddj
                     if ni < 0 or ni >= N or nj < 0 or nj >= N or nni < 0 or nni >= N or nnj < 0 or nnj >= N: continue
-                    if arr[ni][nj] == 0 and arr[nni][nnj] == 0: continue
+                    if arr[ni][nj] != 1 and arr[nni][nnj] != 1: break  # 교차하는 경우
                     cliff.append((r, c))
     return cliff
 
