@@ -1,17 +1,17 @@
 import sys
 from collections import deque
 
-input = sys.stdin.readline
-# sys.stdin = open('input.txt')
+# input = sys.stdin.readline
+sys.stdin = open('input.txt')
 
 
 def ss():
     global tree_cnt
 
-    dead = []
     for i in range(N):
         for j in range(N):
             if trees[i][j]:
+                dead = 0
                 while trees[i][j]:
                     size = len(trees[i][j])
                     for _ in range(size):
@@ -20,12 +20,10 @@ def ss():
                             nutrition[i][j] -= tage
                             trees[i][j].appendleft(tage+1)
                         else:
-                            dead.append((i, j, tage))
+                            dead += int(tage/2)
                             tree_cnt -= 1
                     break
-
-    for dei, dej, dage in dead:
-        nutrition[dei][dej] += int(dage/2)
+                nutrition[i][j] += dead
 
 
 def fw():
