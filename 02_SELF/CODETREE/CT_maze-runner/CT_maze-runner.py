@@ -7,7 +7,7 @@ sys.stdin = open('input.txt')
 
 
 def move_people():
-    global remain
+    global remain, distance
 
     moved = [None] * M
     new = {}
@@ -24,8 +24,9 @@ def move_people():
                 flag = True
                 if (ni, nj) == exit_loc:  # 출구 도착
                     remain -= len(loc_ls)
-                    for p_no in loc_ls:
-                        distance[p_no] += 1
+                    distance += len(loc_ls)
+                    # for p_no in loc_ls:
+                    #     distance[p_no] += 1
                 else:
                     for p_no in loc_ls:
                         moved[p_no] = (ni, nj)
@@ -36,7 +37,7 @@ def move_people():
     for idx, move_loc in enumerate(moved):
         if move_loc is None: continue
         mi, mj = move_loc
-        distance[idx] += 1
+        distance += 1
         if new.get((mi, mj)):
             new[(mi, mj)].append(idx)
         else:
@@ -108,7 +109,8 @@ for no in range(M):
 
 exit_loc = tuple(map(lambda x: int(x)-1, input().split()))
 
-distance = [0] * M  # 이거 이렇게 안해주고 그냥 변수로 해놓고 다 더해도 될것 같음
+# distance = [0] * M  # 이거 이렇게 안해주고 그냥 변수로 해놓고 다 더해도 될것 같음
+distance = 0
 remain = M
 
 for _ in range(K):
@@ -116,5 +118,5 @@ for _ in range(K):
     if remain == 0: break
     participants = rotate_maze()
 
-print(sum(distance))
+print(distance)
 print(exit_loc[0]+1, exit_loc[1]+1)  # 0,0에서 시작하도록 바꿔놨기 때문에
