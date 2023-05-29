@@ -19,9 +19,9 @@ def bfs(si, sj):
             if ni < 0 or ni >= N or nj < 0 or nj >= N or visited[ni][nj]: continue
             if bomb[ni][nj] == 0:
                 zero_cnt -= 1
-                q.append((ni, nj))
+                q.append((ni, nj))  # 0일 때만 퍼져 나감
                 visited[ni][nj] = 1
-            else:
+            elif bomb[ni][nj] > 0:
                 other_cnt -= 1
                 visited[ni][nj] = 1
 

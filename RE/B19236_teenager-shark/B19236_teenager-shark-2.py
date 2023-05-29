@@ -38,26 +38,17 @@ def dfs(si, sj, score, arr):
     for z in range(1, 4):  # 3칸까지 이동 가능
         ni, nj = si + delta[shark_d][0]*z, sj + delta[shark_d][1]*z
         if (0 <= ni < 4 and 0 <= nj < 4) and arr[ni][nj][0] > 0:  # 인덱스 밖이면 x
-            dfs(ni, nj, score, deepcopy(arr))
-            # [i[:] for i in arr] 이건 딥카피가 안된다.
-            # arr이 3차원 배열이어서 안됐던 것
+            dfs(ni, nj, score, deepcopy(arr))  # [i[:] for i in arr] 이건 딥카피가 안된다.
 
 
 delta = [(-1, 0), (-1, -1), (0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1)]
-for _ in range(4):
-    arr = [[], [], [], []]
-    for y in range(4):
-        inp = list(map(int, input().split()))
-        for x in range(0, 7, 2):
-            arr[y].append([inp[x], inp[x+1]-1])  # 방향 -1 해줌
+# for _ in range(4):
+arr = [[], [], [], []]
+for y in range(4):
+    inp = list(map(int, input().split()))
+    for x in range(0, 7, 2):
+        arr[y].append([inp[x], inp[x+1]-1])  # 방향 -1 해줌
 
-    max_score = 0
-    dfs(0, 0, 0, arr)  # 상어 초기 위치, 점수, 배열
-    print(max_score)
-
-# mtx = [[[1, 2, 3], [4,5, 6]], [[7, 8, 9]]]
-# arr = [[i[:] for i in l] for l  in  mtx]
-# print(arr)
-# arr[0][0][0]= 9
-# print(arr)
-# print(mtx)
+max_score = 0
+dfs(0, 0, 0, arr)  # 상어 초기 위치, 점수, 배열
+print(max_score)
