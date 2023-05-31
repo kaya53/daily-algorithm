@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('input.txt')
+# sys.stdin = open('input.txt')
 
 n, k = map(int, input().split())  # 컨베이어 길이, 내구도가 0인 칸의 개수
 belt = [[0, 0] for _ in range(2*n)]
@@ -41,6 +41,7 @@ while True:
         belt[0][1] = 1
         belt[0][0] -= 1  # 로봇이 올라왔으니 내구도 감소
     # 4. 내구도가 0인 칸의 개수가 k개 이상이면 종료 or back to 1
+    print(belt)
     zero_cnt = 0
     for j in range(2*n):
         if belt[j][0] == 0:
