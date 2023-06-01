@@ -22,7 +22,6 @@ def comb(idx, ci):
         return
 
     for ni in range(ci, N+1):
-        # now = food[ni]
         choice[idx] = ni
         comb(idx+1, ni+1)
         choice[idx] = 0
@@ -40,8 +39,7 @@ for num in range(1, N+1):
 
 if cand:
     cand.sort()
-    res = cand.pop(0)
-    print(res[0])
-    print(*res[1])
+    print(cand[0][0])
+    print(*cand[0][1])
 else:
     print(-1)
