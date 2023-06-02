@@ -17,12 +17,8 @@ def check():
     for i in range(R):
         for j in range(C):
             if arr[i][j] == 'x' and not visited[i][j]:
-                res = bfs(i, j, visited)
-                if res[0] is True:
-                    # print(res[1], res[2], sep='\n')
-                    # print()
-                    return res[1]
-                else: visited = res[1]
+                cluster, visited = bfs(i, j, visited)
+                if cluster: return cluster
 
 
 def bfs(si, sj, visited):
@@ -45,52 +41,51 @@ def bfs(si, sj, visited):
             ni, nj = ci + di, cj + dj
             if ni < 0 or ni >= R or nj < 0 or nj >= C or visited[ni][nj] or arr[ni][nj] == '.': continue
             # 땅에 닿으면
-            if ni == R-1: return False, visited
+            if ni == R-1: return [], visited
             q.append((ni, nj))
             visited[ni][nj] = 1
     if len(cluster) > 1:
-        return True, sorted(cluster, reverse=True)
-    return False, visited
+        return cluster, visited
+    return [], visited
 
 
-def gravity(cluster):
-    # 몇 칸 내려갈 수 있는 지 세기
-    new = cluster[:]
-    down = 1
-    flag = False
-    # for a in arr:
-    #     print(a)
-    # print()
-    # print(new)
-    while True:
-        for i in range(len(cluster)):
-            ci, cj = new[i]
-            if ci + down == R-1 or (arr[ci+down][cj] == 'x' and (ci+down, cj) not in cluster):
-                flag = True
-                break
-            new[i] = (ci+down, cj)
-        else: down += 1
-        if flag: break
-    for i in range(len(cluster)):
-        ci, cj = cluster[i]
-        ni, nj = new[i]
-        arr[ni+1][nj] = 'x'
+def gravity(clus_ls):
+    # 아랫줄, 윗줄 순서대로 정렬
+    clus_ls.sort(key=lambda x: [-x[0], x[1]])
+    # 일단 대상 칸을 모두 빈칸으로 만들어주기
+    for ci, cj in clus_ls:
         arr[ci][cj] = '.'
 
+    t = 1
+    flag = True
+    while flag:
+        for ci, cj in clus_ls:
+            # 땅에 닿았거나, 다음 칸이 빈칸이 아니라 못가는 경우
+            if ci+t+1 >= N or arr[ci+t+1][cj] == 'x':
+                flag = False
+                break
 
-for _ in range(3):
-    R, C = map(int, input().split())
-    arr = [list(map(str, input())) for _ in range(R)]
-    N = int(input())
-    throw = list(map(lambda x: R-int(x), input().split()))
+        else:  # 모든 칸에 대해 다음 칸으로 갈 수 있는 경우
+            t += 1
 
-    for k in range(N):
-        height = throw[k]
-        if not k % 2: throw_stick(height, range(C))
-        else: throw_stick(height, range(C-1, -1, -1))
+    # 일단 띄어져있으니까 무조건 한 칸은 내려갈 수 있음
+    for ci, cj in clus_ls:
+        arr[ci+t][cj] = 'x'
 
-        c_res = check()
-        if c_res:
-            gravity(c_res)
-    for a in arr:
-        print(''.join(map(str, a)))
+
+# for _ in range(5):
+R, C = map(int, input().split())
+arr = [list(map(str, input())) for _ in range(R)]
+N = int(input())
+throw = list(map(lambda x: R-int(x), input().split()))
+
+for k in range(N):
+    height = throw[k]
+    if not k % 2: throw_stick(height, range(C))
+    else: throw_stick(height, range(C-1, -1, -1))
+
+    c_res = check()
+    if c_res:
+        gravity(c_res)
+for a in arr:
+    print(''.join(map(str, a)))
