@@ -9,10 +9,10 @@
 # 3. 보드가 돌아가므로 입구와 출구가 달라지는 경우는 고려할 필요가 없다 => 이걸 생각했어야지 ^^
 import copy, sys
 
-# sys.stdin = open('input.txt')
+sys.stdin = open('input.txt')
 from collections import deque
 
-input = sys.stdin.readline
+# input = sys.stdin.readline
 
 
 def comb(idx):
