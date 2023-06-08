@@ -9,12 +9,12 @@ def is_player(i, j):
     return False
 
 
-def move(i, j, d):
-    ni, nj = i + delta[d][0], j + delta[d][1]
+def move(i, j, cd):
+    ni, nj = i + delta[cd][0], j + delta[cd][1]
     if ni < 0 or ni >= N or nj < 0 or nj >= N:
-        d = (d+2) % 4
-        ni, nj = i + delta[d][0], j + delta[d][1]
-    return ni, nj, d
+        cd = (cd+2) % 4
+        ni, nj = i + delta[cd][0], j + delta[cd][1]
+    return ni, nj, cd
 
 
 def fight(me, enemy):
@@ -95,11 +95,10 @@ for _ in range(1):
                     fight(p_no, other_no)
                     break
             else:  # 플레이어 없음
-                if gun[p_no]:
-                    check_gun(p_no, ci, cj)
-                else:  # 총기 소지 안하고 있음
-                    g_arr[ci][cj].sort()
-                    gun[p_no] = g_arr[ci][cj].pop()
+                gun_ls = g_arr[ci][cj]
+                if gun[p_no]: gun_ls.append(gun[p_no])
+                gun_ls.sort()
+                gun[p_no] = gun_ls.pop()
             print(player_info)
             print(gun)
             for g in g_arr:

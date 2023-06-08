@@ -118,7 +118,6 @@ for _ in range(T):
 
 res = 0
 for ei in range(4):
-    # print(arr[ei])
     for ej in range(4):
         res += arr[ei][ej][0]
 print(res)

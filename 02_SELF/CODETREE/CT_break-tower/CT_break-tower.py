@@ -22,7 +22,7 @@ def choose_attack():
             if arr[ii][jj] == min_power:
                 cand.append((min_power, attack_turn[ii][jj], ii+jj, jj))
     cand.sort(key=lambda x: [x[0], -x[1], -x[2], -x[3]])
-    attacker = cand.pop(0)
+    attacker = cand.pop(0)  # 처음에 뒤에서 빼서 에러남
     aj = attacker[3]
     ai = attacker[2] - aj
     return ai, aj
@@ -50,7 +50,7 @@ def choose_tower(ai, aj):
 
 
 def attack(si, sj, ei, ej):
-    attack_path = raser_bfs(si, sj, ei, ej)
+    attack_path = laser_bfs(si, sj, ei, ej)
 
     # 공격력 감소
     if attack_path:
@@ -65,7 +65,7 @@ def attack(si, sj, ei, ej):
     return bomb
 
 
-def raser_bfs(si, sj, ei, ej):
+def laser_bfs(si, sj, ei, ej):
     visited = [[0] * M for _ in range(N)]
     q = deque([(si, sj, [])])
     visited[si][sj] = 1
@@ -117,7 +117,6 @@ def repair_tower(ai, aj, ei, ej, attack_loc):
 
 
 delta = [(0, 1), (1, 0), (0, -1), (-1, 0)]  # 우하좌상 순
-# for _ in range(1):
 # 행, 열, 턴 수
 N, M, K = map(int, input().split())
 # arr: 포탑 공격력
