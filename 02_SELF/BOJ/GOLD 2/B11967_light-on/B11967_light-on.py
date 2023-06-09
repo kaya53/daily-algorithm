@@ -7,10 +7,10 @@ from collections import deque
 
 def bfs():
     if info.get((0, 0), -1) == -1: return
-    visited = [[0] * N for _ in range(N)]
+    visited = [[0] * N for _ in range(N)]  # 들여다본 방 모두 표시
 
     visited[0][0] = 1
-    arr[0][0] = 1
+    arr[0][0] = 1  # 불 켜기
     q = deque()
     q.append((0, 0))
 
@@ -20,7 +20,10 @@ def bfs():
         # 불 켜기
         if info.get((ci, cj), -1) != -1:
             for ii, jj in info[(ci, cj)]:
-                if visited[ii][jj] == 1 and arr[ii][jj] == 0: q.append((ii, jj))
+                # 이전에 들여다 본 방인데, 불이 꺼져 있는 방 => 새로 불을 켠 방 
+                # 큐에 넣어서 관리하기
+                if visited[ii][jj] == 1 and arr[ii][jj] == 0: 
+                    q.append((ii, jj))
                 if arr[ii][jj] == 0:
                     arr[ii][jj] = 1
                     cnt += 1
@@ -36,7 +39,7 @@ def bfs():
 
 # for _ in range(3):
 N, M = map(int, input().split())
-info = {}
+info = {}  # 스위치가 있는 방: 여기서 켤 수 있는 방 좌표
 
 for _ in range(M):
     si, sj, ei, ej = map(lambda x: int(x) - 1, input().split())
@@ -44,7 +47,7 @@ for _ in range(M):
         info[(si, sj)] = []
     info[(si, sj)].append((ei, ej))
 
-arr = [[0] * N for _ in range(N)]
+arr = [[0] * N for _ in range(N)]  # 불이 켜져있는 지 꺼져있는 지 관리
 res = bfs()
 
 print(res)

@@ -43,7 +43,7 @@ fishes = set()
 for _ in range(M):
     fishes.add(tuple(map(lambda x: int(x)-1, input().split())))
 
-# 가능한 그물 조합
+# 가능한 그물 조합 ==> 해당 그물 길이에서 가능한 직사각형의 높이와 길이
 net = [(k, (I//2)-k) for k in range(1, I//2)]
 
 mmax = 0

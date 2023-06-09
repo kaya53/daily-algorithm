@@ -53,10 +53,10 @@ def move_player():
             players[p_no] = [next_i, next_j, next_d]
             # monopoly[next_i][next_j] = [p_no, K]
             new_mono[p_no] = (next_i, next_j)
-    for m in range(1, M+1):
+    for m in range(1, M+1):  # 각 플레이어의 독점 현황 배열(monopoly) 바꿔주기
         if not new_mono[m]: continue
         mi, mj = new_mono[m]
-        monopoly[mi][mj] = [m, K+1]
+        monopoly[mi][mj] = [m, K+1]  # 새로 한 독점 계약 => 기존 것에 추가
     return new
         
 
@@ -92,14 +92,7 @@ for turn in range(1, 1001):
     # print(turn, '----------------')
     minus_monopoly()
     arr = move_player()
-    # for a in arr:
-    #     print(a)
-    # print()
-    # for mo in monopoly:
-    #     print(mo)
-    # print()
-    # print(players)
-    # if turn == 4: break
+
     if players[1] and remain == 1:
         print(turn)
         break

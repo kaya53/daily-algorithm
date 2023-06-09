@@ -1,3 +1,4 @@
+# 1시간 20분 소요
 import sys
 
 sys.stdin = open('input.txt')

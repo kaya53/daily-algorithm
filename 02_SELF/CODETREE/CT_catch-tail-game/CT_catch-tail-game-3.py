@@ -39,7 +39,7 @@ def move():
         k = 1
         # 움직인 후 이동선의 팀원들 마킹
         for ci, cj in q:
-            if k <= team_cnt[idx]:
+            if k <= team_cnt[idx]:  # 팀원 수만큼 돌리기
                 arr[ci][cj] = (idx, k)
                 k += 1
             else:  # 이동선

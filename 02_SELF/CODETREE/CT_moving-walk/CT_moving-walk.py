@@ -18,7 +18,6 @@ def move():
             stability[nnext] -= 1
             if stability[nnext] == 0: remain -= 1  # 안정성이 0인 판
             if nnext == N-1:
-                # print('out2')
                 moving[now] = 0
             else:
                 moving[nnext] = 1
@@ -34,7 +33,6 @@ remain = K
 turn = 0
 while True:
     turn += 1
-    # print(turn)
     # 1. 회전
     moving.rotate()
     stability.rotate()
@@ -49,12 +47,7 @@ while True:
         stability[0] -= 1
         if stability[0] == 0: remain -= 1
     if moving[N - 1]:
-        # print('out3')
         moving[N - 1] = 0
-    # print('after ppl in ')
-    # print(moving)
-    # print(stability)
-    # print()
     if remain <= 0:
         print(turn)
         break
