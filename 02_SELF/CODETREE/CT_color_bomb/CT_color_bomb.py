@@ -51,12 +51,13 @@ def gravity():
         empty = []
         new = []
         for ii in range(N):
-            if arr[ii][jj] == -1:
+            if arr[ii][jj] == -1:  # 돌을 만나면 new 배열에 더해줌 => 다 더했으면 빈칸, 숫자 리스트 모두 비우기
                 new += empty + nums + [-1]
                 empty = []
                 nums = []
-            elif arr[ii][jj] == -2: empty.append(-2)
+            elif arr[ii][jj] == -2: empty.append(-2)  # 터진 폭탄 == 빈칸
             else: nums.append(arr[ii][jj])
+        # 행/열 탐색 끝
         new += empty + nums
         # print(new)
         for pi in range(N):
