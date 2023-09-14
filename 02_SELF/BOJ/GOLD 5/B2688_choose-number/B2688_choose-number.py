@@ -24,6 +24,7 @@ def dfs(si):
         cycle = []
         return
 
+
 visited = [0] * (N+1)
 cycle = []
 res = []
