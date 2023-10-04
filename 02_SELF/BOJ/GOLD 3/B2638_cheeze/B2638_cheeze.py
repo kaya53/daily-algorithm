@@ -68,7 +68,7 @@ def solution():
 
         for mi, mj in melt_ls:
             arr[mi][mj] = 0
-
     return time
+
 
 print(solution())

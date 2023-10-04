@@ -27,7 +27,7 @@ def dfs(idx, i, j, ssum):
 n, m = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(n)]
 visited = [[0] * m for _ in range(n)]
-other_dir = [[(0, 1), (-1, 1), (0, 2)], [(0, 1), (1, 1), (0, 2)], [(1, 0), (2, 0), (1, 1)], [(1, 0), (2, 0), (1, -1)]]
+# other_dir = [[(0, 1), (-1, 1), (0, 2)], [(0, 1), (1, 1), (0, 2)], [(1, 0), (2, 0), (1, 1)], [(1, 0), (2, 0), (1, -1)]]
 res = 0
 max_val = max(map(max, arr))
 for i in range(n):
