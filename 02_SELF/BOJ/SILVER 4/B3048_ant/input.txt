@@ -1,0 +1,12 @@
+3 3
+ABC
+DEF
+50
+3 3
+ABC
+DEF
+2
+3 4
+JLA
+CRUO
+3
