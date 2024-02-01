@@ -1,3 +1,4 @@
+# 참고 : https://www.ai-bio.info/programmers/152995
 def solution(scores):
     answer = 0
     ta, tb = scores[0]
