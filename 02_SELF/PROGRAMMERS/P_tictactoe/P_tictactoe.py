@@ -16,10 +16,8 @@ def tictactoe(depth, arr, board, tot):
     for i in range(9):
         if arr[i] != '.': continue
 
-        if depth % 2:
-            arr[i] = 'X'
-        else:
-            arr[i] = 'O'
+        if depth % 2: arr[i] = 'X'
+        else: arr[i] = 'O'
         if check(arr, i, arr[i]): return False
         if tictactoe(depth + 1, arr, board, tot): return True
         arr[i] = '.'
