@@ -12,14 +12,13 @@ def solution(m, n, sx, sy, balls):
         flipped = [(tx, n + n - ty), (tx, -1 * ty), (-1 * tx, ty), (m + (m - tx), ty)]
         for idx, now in enumerate(flipped):  # 위, 아래, 왼, 오
             nx, ny = now
-
+            # 일직선으로 가다가 공에 맞는 경우
             if idx == 0 and sx == tx and sy < ty: continue
             if idx == 1 and sx == tx and sy > ty: continue
             if idx == 2 and sy == ty and sx > tx: continue
             if idx == 3 and sy == ty and sx < tx: continue
             dist = (nx - sx) ** 2 + (ny - sy) ** 2
             mmin = min(mmin, dist)
-            # if dist == 10: print(nx, ny)
 
         for idx, dot in enumerate(dots):  # 꼭지점
             dx, dy = dot
