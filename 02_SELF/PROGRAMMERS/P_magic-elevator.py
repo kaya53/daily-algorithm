@@ -1,6 +1,5 @@
 answer = int(1e9)
 
-
 def recur(num, tot):
     global answer
     # print(num, tot)
