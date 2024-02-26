@@ -6,7 +6,7 @@ from collections import deque
 
 
 def solution(n, si, sj, stores, ei, ej):
-    q = deque([(si, sj)]) # 위치, 거리, 남은 맥주
+    q = deque([(si, sj)])  # 위치
     visited = [0] * n  # 편의점 방문
     while q:
         ci, cj = q.popleft()
